@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -40,14 +40,39 @@
           "cssFilePath": "plasmic/panda/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "oWV9TLFVNrF",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "Km9Nxtu8J_5",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Checksvg.jsx"
+        }
+      ],
       "images": [
         {
           "id": "B333mF8yR",
           "name": "image006.png",
           "filePath": "../public/plasmic/panda/images/image006Png.png"
+        },
+        {
+          "id": "uchcX5_JS",
+          "name": "61778005-0022-4482-8dc1-cb7af9cf8d81.jpeg",
+          "filePath": "../public/plasmic/panda/images/_61778005002244828Dc1Cb7Af9Cf8D81Jpeg.jpeg"
         }
       ],
       "indirect": false,
