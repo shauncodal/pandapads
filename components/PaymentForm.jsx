@@ -6,10 +6,11 @@ import { usePaystackPayment } from 'react-paystack';
 
 function PaymentForm_(props, ref) {
   const [email, changeEmail] = React.useState(null);
+  const [status, changeStatus] = React.useState('start');
 
   const onSuccess = (reference) => {
     console.log('reference2',reference)
-   
+   changeStatus('success')
   };
   
   
@@ -26,11 +27,13 @@ function PaymentForm_(props, ref) {
     currency: "ZAR",
     publicKey: 'pk_test_9e51c1550eaaf52040999ccabc1d53ff0835cf3b',
   };
+
   const initializePayment = usePaystackPayment(config);
 
   
 
   return <PlasmicPaymentForm root={{ ref }} {...props} 
+  status={status}
   btnDonate = {{
     onClick:(e)=>{
       initializePayment(onSuccess, onClose)
@@ -38,7 +41,8 @@ function PaymentForm_(props, ref) {
   }}
   inputEmail = {{
     onChange: (e)=>{
-      changeEmail(e)
+      console.log(e)
+      changeEmail(e.target.value)
     }
   }}
   />;

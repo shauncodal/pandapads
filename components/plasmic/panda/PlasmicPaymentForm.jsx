@@ -24,7 +24,7 @@ import projectcss from "./plasmic_panda.module.css"; // plasmic-import: p6tU1MHc
 import sty from "./PlasmicPaymentForm.module.css"; // plasmic-import: gfIegCu9e-/css
 import Icon7Icon from "./icons/PlasmicIcon__Icon7"; // plasmic-import: HGfquhKfKT/icon
 
-export const PlasmicPaymentForm__VariantProps = new Array();
+export const PlasmicPaymentForm__VariantProps = new Array("status");
 
 export const PlasmicPaymentForm__ArgProps = new Array();
 
@@ -54,15 +54,22 @@ function PlasmicPaymentForm__RenderFunc(props) {
       >
         <div className={classNames(projectcss.all, sty.freeBox__jcEbT)}>
           <div
-            data-plasmic-name={"text"}
-            data-plasmic-override={overrides.text}
             className={classNames(
               projectcss.all,
               projectcss.__wab_text,
-              sty.text
+              sty.text__pIcQh,
+              {
+                [sty.text__status_success__pIcQhmKoyh]: hasVariant(
+                  variants,
+                  "status",
+                  "success"
+                )
+              }
             )}
           >
-            {"Please provide your details"}
+            {hasVariant(variants, "status", "success")
+              ? "Transaction Approved!"
+              : "Please provide your details"}
           </div>
 
           <Icon7Icon
@@ -78,40 +85,88 @@ function PlasmicPaymentForm__RenderFunc(props) {
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__icj4L)}
         >
-          <TextInput
-            data-plasmic-name={"inputFirstName"}
-            data-plasmic-override={overrides.inputFirstName}
-            className={classNames("__wab_instance", sty.inputFirstName)}
-            placeholder={"First Name"}
-          />
-
-          <TextInput
-            data-plasmic-name={"inputLastName"}
-            data-plasmic-override={overrides.inputLastName}
-            className={classNames("__wab_instance", sty.inputLastName)}
-            placeholder={"Last Name"}
-          />
-
-          <TextInput
-            data-plasmic-name={"inputEmail"}
-            data-plasmic-override={overrides.inputEmail}
-            className={classNames("__wab_instance", sty.inputEmail)}
-            placeholder={"Email address"}
-          />
-
-          <div
-            data-plasmic-name={"btnDonate"}
-            data-plasmic-override={overrides.btnDonate}
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.btnDonate
-            )}
-          >
-            {hasVariant(globalVariants, "screen", "desktopOnly")
-              ? "Donate Now"
-              : "Donate Now"}
-          </div>
+          {(hasVariant(variants, "status", "success") ? true : true) ? (
+            <TextInput
+              data-plasmic-name={"inputFirstName"}
+              data-plasmic-override={overrides.inputFirstName}
+              className={classNames("__wab_instance", sty.inputFirstName, {
+                [sty.inputFirstName__status_success]: hasVariant(
+                  variants,
+                  "status",
+                  "success"
+                )
+              })}
+              placeholder={"First Name"}
+            />
+          ) : null}
+          {(hasVariant(variants, "status", "success") ? true : true) ? (
+            <TextInput
+              data-plasmic-name={"inputLastName"}
+              data-plasmic-override={overrides.inputLastName}
+              className={classNames("__wab_instance", sty.inputLastName, {
+                [sty.inputLastName__status_success]: hasVariant(
+                  variants,
+                  "status",
+                  "success"
+                )
+              })}
+              placeholder={"Last Name"}
+            />
+          ) : null}
+          {(hasVariant(variants, "status", "success") ? true : true) ? (
+            <TextInput
+              data-plasmic-name={"inputEmail"}
+              data-plasmic-override={overrides.inputEmail}
+              className={classNames("__wab_instance", sty.inputEmail, {
+                [sty.inputEmail__status_success]: hasVariant(
+                  variants,
+                  "status",
+                  "success"
+                )
+              })}
+              placeholder={"Email address"}
+            />
+          ) : null}
+          {(hasVariant(variants, "status", "success") ? true : true) ? (
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__kuAt0,
+                {
+                  [sty.text__status_success__kuAt0MKoyh]: hasVariant(
+                    variants,
+                    "status",
+                    "success"
+                  )
+                }
+              )}
+            >
+              {"Thank you very much for your donation!!"}
+            </div>
+          ) : null}
+          {(hasVariant(variants, "status", "success") ? true : true) ? (
+            <div
+              data-plasmic-name={"btnDonate"}
+              data-plasmic-override={overrides.btnDonate}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.btnDonate,
+                {
+                  [sty.btnDonate__status_success]: hasVariant(
+                    variants,
+                    "status",
+                    "success"
+                  )
+                }
+              )}
+            >
+              {hasVariant(globalVariants, "screen", "desktopOnly")
+                ? "Donate Now"
+                : "Donate Now"}
+            </div>
+          ) : null}
         </p.Stack>
       </p.Stack>
     </div>
@@ -121,7 +176,6 @@ function PlasmicPaymentForm__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "text",
     "btnClose",
     "inputFirstName",
     "inputLastName",
@@ -129,7 +183,6 @@ const PlasmicDescendants = {
     "btnDonate"
   ],
 
-  text: ["text"],
   btnClose: ["btnClose"],
   inputFirstName: ["inputFirstName"],
   inputLastName: ["inputLastName"],
@@ -166,7 +219,6 @@ export const PlasmicPaymentForm = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    text: makeNodeComponent("text"),
     btnClose: makeNodeComponent("btnClose"),
     inputFirstName: makeNodeComponent("inputFirstName"),
     inputLastName: makeNodeComponent("inputLastName"),
