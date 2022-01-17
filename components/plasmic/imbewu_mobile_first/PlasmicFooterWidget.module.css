@@ -1,0 +1,95 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: auto;
+  width: auto;
+  background: var(--token-c79ojIUd1);
+  border-top-style: solid;
+  border-top-width: 1px;
+  position: relative;
+  padding: 16px;
+}
+.root:hover {
+  background: #9b9b86;
+}
+.freeBox__v8Yn5 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding: 8px;
+}
+.freeBox__v8Yn5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__v8Yn5 > :global(.__wab_flex-container) > *,
+.freeBox__v8Yn5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__v8Yn5 > :global(.__wab_flex-container) > picture > img,
+.freeBox__v8Yn5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.privacy {
+  position: relative;
+  font-size: 11px;
+  color: var(--token-hl3Zddiwv);
+}
+.tandcs {
+  position: relative;
+  font-size: 11px;
+  color: var(--token-hl3Zddiwv);
+}
+.contact {
+  position: relative;
+  font-size: 11px;
+  color: var(--token-hl3Zddiwv);
+  height: auto;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  color: var(--token-oWf5ggoEo);
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  flex-shrink: 0;
+}
+.freeBox___1FSq {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  height: auto;
+  padding: 4px;
+}
+.freeBox___1FSq > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox___1FSq > :global(.__wab_flex-container) > *,
+.freeBox___1FSq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___1FSq > :global(.__wab_flex-container) > picture > img,
+.freeBox___1FSq
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.version {
+  position: relative;
+  font-size: 11px;
+  color: var(--token-oWf5ggoEo);
+  width: auto;
+  height: auto;
+}

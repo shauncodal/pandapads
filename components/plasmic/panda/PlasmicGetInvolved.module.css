@@ -12,7 +12,10 @@
   padding: 0px;
 }
 .topMenu:global(.__wab_instance) {
-  position: relative;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
 .freeBox___8Y6Fr {
   display: flex;
@@ -22,7 +25,7 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  margin-top: 0px;
+  margin-top: 100px;
   min-width: 0;
   padding: 0px;
 }
@@ -45,6 +48,11 @@
   border-top-right-radius: 8px;
   flex-shrink: 0;
   padding: 8px;
+}
+@media (min-width: 768px) {
+  .freeBox__oYxIt {
+    margin-top: 90px;
+  }
 }
 .freeBox__rnvCt {
   display: flex;
@@ -322,7 +330,7 @@
   margin-bottom: 21px;
   min-width: 0;
 }
-.donate {
+.btnDonate {
   position: relative;
   width: 100%;
   height: auto;
@@ -336,7 +344,7 @@
   padding: 16px 8px;
 }
 @media (min-width: 768px) {
-  .donate {
+  .btnDonate {
     max-width: 400px;
   }
 }

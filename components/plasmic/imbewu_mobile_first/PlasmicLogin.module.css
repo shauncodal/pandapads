@@ -1,0 +1,210 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+.freeBox__lqcDo {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  background: url("/plasmic/imbewu_mobile_first/images/lightgreenCutsvg.svg") 0% 0% / contain repeat-x;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.outer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 32px 0px 16px;
+}
+.freeBox__y1C2F {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: none;
+  height: 100%;
+  min-height: 0;
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  .freeBox__y1C2F {
+    align-self: center;
+  }
+}
+.freeBox__sdIHc {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: var(--token-oWf5ggoEo);
+  height: 100%;
+  box-shadow: 0px 0px 4px 2px #00000014;
+  min-height: 0;
+  border-radius: 4px;
+  padding: 8px;
+}
+.freeBox__sdIHc > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.freeBox__sdIHc > :global(.__wab_flex-container) > *,
+.freeBox__sdIHc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__sdIHc > :global(.__wab_flex-container) > picture > img,
+.freeBox__sdIHc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .freeBox__sdIHc {
+    width: 400px;
+    height: 100%;
+    min-height: 0;
+  }
+}
+@media (min-width: 768px) {
+  .freeBox__sdIHc > :global(.__wab_flex-container) {
+    min-height: 0;
+  }
+}
+.text__xuHqj {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--token-vYO6h4FW3);
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-self: flex-start;
+  background: var(--token-h1nwR9emp);
+  min-width: 0;
+  border-radius: 4px;
+  padding: 8px;
+}
+.text__status_loading__xuHqjFwAfl {
+  display: none;
+}
+.inputCell:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.inputPassword:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__rqlrZ {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__status_loading__rqlrZfwAfl {
+  display: none;
+}
+.submit:global(.__wab_instance) {
+  position: relative;
+}
+.submit__status_loading:global(.__wab_instance) {
+  display: none;
+}
+.submitBtn2 {
+  border-width: 1px;
+  border-style: none;
+}
+.loadingArea {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.registerBtn:global(.__wab_instance) {
+  position: relative;
+}
+.registerBtn__status_loading:global(.__wab_instance) {
+  display: none;
+}
+.submitBtn4 {
+  border-width: 1px;
+  border-style: none;
+}
+.submitBtn4__status_loading {
+  display: none;
+}
+.text__k4KPn {
+  position: relative;
+}
+.text__status_loading__k4KPnFwAfl {
+  width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+.freeBox__w9B6E {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.forgotBtn:global(.__wab_instance) {
+  position: relative;
+}
+.forgotBtn__status_loading:global(.__wab_instance) {
+  display: none;
+}
+.btnForgot {
+  cursor: pointer;
+}
+.btnForgot__status_loading {
+  display: none;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: var(--token-vYO6h4FW3);
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}
+.footerWidget:global(.__wab_instance) {
+  position: relative;
+}

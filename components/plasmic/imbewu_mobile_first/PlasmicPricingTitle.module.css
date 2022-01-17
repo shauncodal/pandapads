@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+@media (min-width: 380px) {
+  .root {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px;
+  }
+}
+.text__jsAtV {
+  position: relative;
+}
+@media (min-width: 380px) {
+  .text__jsAtV {
+    color: var(--token-vYO6h4FW3);
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    width: 135px;
+    text-align: left;
+    flex-shrink: 0;
+  }
+}
+.text__shThW {
+  position: relative;
+}
+@media (min-width: 380px) {
+  .text__shThW {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 22px;
+  }
+}

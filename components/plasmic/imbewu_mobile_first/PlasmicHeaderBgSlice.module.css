@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  background: url("/plasmic/imbewu_mobile_first/images/headerSlicesvg.svg") 0% 0% / cover repeat;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.navPageTitle:global(.__wab_instance) {
+  position: relative;
+}
+.text__qUGuC {
+  font-size: 12px;
+  width: 100%;
+  color: var(--token-oWf5ggoEo);
+  min-width: 0;
+}

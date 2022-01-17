@@ -1,0 +1,34 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: var(--token-gmc_Ctzg2);
+  position: relative;
+  padding: 16px;
+}
+.text___1Lsop {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding: 8px;
+}
+.text__c6Ea {
+  position: relative;
+  font-size: 14px;
+  padding: 8px;
+}
+.btnReadMore:global(.__wab_instance) {
+  position: relative;
+}
+.svg__zoezE {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: var(--token-vYO6h4FW3);
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}

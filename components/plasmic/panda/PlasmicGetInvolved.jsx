@@ -216,12 +216,12 @@ function PlasmicGetInvolved__RenderFunc(props) {
               </div>
 
               <button
-                data-plasmic-name={"donate"}
-                data-plasmic-override={overrides.donate}
+                data-plasmic-name={"btnDonate"}
+                data-plasmic-override={overrides.btnDonate}
                 className={classNames(
                   projectcss.button,
                   projectcss.__wab_text,
-                  sty.donate
+                  sty.btnDonate
                 )}
               >
                 {"Donate Now"}
@@ -436,7 +436,7 @@ const PlasmicDescendants = {
   root: [
     "root",
     "topMenu",
-    "donate",
+    "btnDonate",
     "keepagirlinschool",
     "ecofriendly",
     "periodpoverty",
@@ -449,7 +449,7 @@ const PlasmicDescendants = {
   ],
 
   topMenu: ["topMenu"],
-  donate: ["donate"],
+  btnDonate: ["btnDonate"],
   keepagirlinschool: ["keepagirlinschool"],
   ecofriendly: ["ecofriendly"],
   periodpoverty: ["periodpoverty"],
@@ -491,7 +491,7 @@ export const PlasmicGetInvolved = Object.assign(
   {
     // Helper components rendering sub-elements
     topMenu: makeNodeComponent("topMenu"),
-    donate: makeNodeComponent("donate"),
+    btnDonate: makeNodeComponent("btnDonate"),
     keepagirlinschool: makeNodeComponent("keepagirlinschool"),
     ecofriendly: makeNodeComponent("ecofriendly"),
     periodpoverty: makeNodeComponent("periodpoverty"),

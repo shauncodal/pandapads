@@ -1,0 +1,155 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: var(--token-oWf5ggoEo);
+  position: relative;
+  width: 100%;
+  min-width: 280px;
+  max-width: 280px;
+  border-radius: 8px;
+  padding: 8px;
+}
+.img__jewLj {
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__jewLj > picture > img {
+  object-fit: contain;
+}
+.img__jewLj > .__wab_img-spacer > img {
+  object-fit: contain;
+}
+.freeBox__orDvm {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__jbhIu {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotTargetSlot4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--token-vYO6h4FW3);
+}
+.freeBox__evk1E {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotTargetSlot5 {
+  font-size: 14px;
+}
+.iconRound:global(.__wab_instance) {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  align-self: baseline;
+  flex-shrink: 0;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: var(--token-vYO6h4FW3);
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}
+.freeBox___2W2Nq {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 8px;
+  border-bottom: 1px solid var(--token-DTIYECEe2);
+}
+.freeBox__eqwXo {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotTargetChildren {
+  font-family: "Poppins", sans-serif;
+  color: var(--token-vYO6h4FW3);
+}
+.slotTargetSlot {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--token-vYO6h4FW3);
+}
+.freeBox__rhQot {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 8px;
+  border-bottom: 1px solid var(--token-DTIYECEe2);
+}
+.freeBox___0Bj2Z {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotTargetChildren2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--token-vYO6h4FW3);
+}
+.slotTargetSlot2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--token-vYO6h4FW3);
+}
+.freeBox___8Io4Y {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 8px;
+  border-bottom: 1px solid var(--token-DTIYECEe2);
+}
+.freeBox__l0I2V {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotTargetChildren3 {
+  font-family: "Poppins", sans-serif;
+  color: var(--token-vYO6h4FW3);
+}
+.slotTargetSlot3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--token-vYO6h4FW3);
+}
+.text {
+  position: relative;
+  font-size: 12px;
+  font-style: italic;
+  padding: 8px;
+}

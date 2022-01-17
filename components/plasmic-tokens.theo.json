@@ -1,6 +1,16 @@
 {
   "props": [
     {
+      "name": "BGgreyLite",
+      "type": "color",
+      "value": "#F8F8F8",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "m_h0UjzhR"
+      }
+    },
+    {
       "name": "Confortaa",
       "type": "fontfamily",
       "value": "Comfortaa",
@@ -21,6 +31,66 @@
       }
     },
     {
+      "name": "black90",
+      "type": "color",
+      "value": "#242A2A",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "wNURBLgcg"
+      }
+    },
+    {
+      "name": "blackoverlay30",
+      "type": "color",
+      "value": "#0000004D",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "hKDDQTr7l"
+      }
+    },
+    {
+      "name": "blackoverlay30",
+      "type": "color",
+      "value": "#0000004D",
+      "category": "color",
+      "meta": {
+        "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+        "id": "8VMRoF5UD"
+      }
+    },
+    {
+      "name": "darkBrown",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "hl3Zddiwv"
+      }
+    },
+    {
+      "name": "darkGreen",
+      "type": "color",
+      "value": "#754C28",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "vYO6h4FW3"
+      }
+    },
+    {
+      "name": "darkGrey",
+      "type": "color",
+      "value": "#92938F",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "T-yLSgErM"
+      }
+    },
+    {
       "name": "darkerGrey",
       "type": "color",
       "value": "#A3A3A3",
@@ -28,6 +98,26 @@
       "meta": {
         "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
         "id": "KcWdgct8T"
+      }
+    },
+    {
+      "name": "dropshadow",
+      "type": "color",
+      "value": "#00000033",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "0Uwcv5K4y"
+      }
+    },
+    {
+      "name": "error",
+      "type": "color",
+      "value": "#F49313",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "cE0h0jVeC"
       }
     },
     {
@@ -51,6 +141,46 @@
       }
     },
     {
+      "name": "lightBG",
+      "type": "color",
+      "value": "#EFEFEF",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "gmc_Ctzg2"
+      }
+    },
+    {
+      "name": "lightBrown",
+      "type": "color",
+      "value": "#B6B69A",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "c79ojIUd1"
+      }
+    },
+    {
+      "name": "lightGreen",
+      "type": "color",
+      "value": "#A2D181",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "h1nwR9emp"
+      }
+    },
+    {
+      "name": "lightGrey",
+      "type": "color",
+      "value": "#C5C6C3",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "DTIYECEe2"
+      }
+    },
+    {
       "name": "lightgreyBG",
       "type": "color",
       "value": "#F1F1F1",
@@ -58,6 +188,16 @@
       "meta": {
         "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
         "id": "zufrlsS5r"
+      }
+    },
+    {
+      "name": "oliveGreen",
+      "type": "color",
+      "value": "#E4EAA2",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "G3sstVR3F"
       }
     },
     {
@@ -78,6 +218,16 @@
       "meta": {
         "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
         "id": "exxFslzNe"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "3ekFgeJQEEmC58uuLfkDcf",
+        "id": "oWf5ggoEo"
       }
     },
     {

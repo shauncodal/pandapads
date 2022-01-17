@@ -1,0 +1,98 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-gmc_Ctzg2);
+  min-width: 0;
+  min-height: 0;
+}
+.navPageTitle:global(.__wab_instance) {
+  position: relative;
+}
+@media (min-width: 380px) {
+  .navPageTitle:global(.__wab_instance) {
+    position: relative;
+  }
+}
+.pageTitle {
+  height: auto;
+  color: var(--token-oWf5ggoEo);
+}
+.freeBox__mLXkO {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  background: url("/plasmic/imbewu_mobile_first/images/lightgreenCutsvg.svg") 0% 0% / contain repeat-x;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.outer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 32px 0px 16px;
+}
+.freeBox__idIaZ {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: none;
+  height: 100%;
+  min-height: 0;
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  .freeBox__idIaZ {
+    align-self: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    background: none;
+    height: 100%;
+    flex-column-gap: 0px;
+    min-height: 0;
+    padding: 8px;
+  }
+}
+.cardPricingSliderCarousel:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__aMey4 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("/plasmic/imbewu_mobile_first/images/lightgreensvg.svg") 0% 0% / cover repeat,
+    var(--token-oWf5ggoEo);
+  height: 94px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+.btnNormal:global(.__wab_instance) {
+  position: relative;
+}
+.widgetAbout:global(.__wab_instance) {
+  position: relative;
+}
+.footerWidget:global(.__wab_instance) {
+  position: relative;
+}

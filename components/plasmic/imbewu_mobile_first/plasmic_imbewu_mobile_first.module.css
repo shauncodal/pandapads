@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C700%3B1%2C400%3B1%2C500%3B1%2C700&family=Poppins%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700&display=swap");
+.plasmic_tokens {
+  --token-hl3Zddiwv: #535353;
+  --token-c79ojIUd1: #b6b69a;
+  --token-vYO6h4FW3: #754c28;
+  --token-h1nwR9emp: #a2d181;
+  --token-G3sstVR3F: #e4eaa2;
+  --token-wNURBLgcg: #242a2a;
+  --token-T-yLSgErM: #92938f;
+  --token-DTIYECEe2: #c5c6c3;
+  --token-oWf5ggoEo: #ffffff;
+  --token-hKDDQTr7l: #0000004d;
+  --token-gmc_Ctzg2: #efefef;
+  --token-m_h0UjzhR: #f8f8f8;
+  --token-0Uwcv5K4y: #00000033;
+  --token-cE0h0jVeC: #f49313;
+  --plasmic-token-dark-brown: var(--token-hl3Zddiwv);
+  --plasmic-token-light-brown: var(--token-c79ojIUd1);
+  --plasmic-token-dark-green: var(--token-vYO6h4FW3);
+  --plasmic-token-light-green: var(--token-h1nwR9emp);
+  --plasmic-token-olive-green: var(--token-G3sstVR3F);
+  --plasmic-token-black-90: var(--token-wNURBLgcg);
+  --plasmic-token-dark-grey: var(--token-T-yLSgErM);
+  --plasmic-token-light-grey: var(--token-DTIYECEe2);
+  --plasmic-token-white: var(--token-oWf5ggoEo);
+  --plasmic-token-blackoverlay-30: var(--token-hKDDQTr7l);
+  --plasmic-token-light-bg: var(--token-gmc_Ctzg2);
+  --plasmic-token-b-ggrey-lite: var(--token-m_h0UjzhR);
+  --plasmic-token-dropshadow: var(--token-0Uwcv5K4y);
+  --plasmic-token-error: var(--token-cE0h0jVeC);
+}
+.all {
+  display: block;
+  white-space: inherit;
+  grid-row: auto;
+  grid-column: auto;
+  position: relative;
+  background: none;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  box-sizing: border-box;
+  text-decoration-line: none;
+  margin: 0;
+  border-width: 0px;
+}
+.img {
+  composes: all;
+  display: inline-block;
+}
+.li {
+  composes: all;
+  display: list-item;
+}
+.span {
+  composes: all;
+  display: inline;
+  position: static;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+.input {
+  composes: all;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: linear-gradient(#ffffff, #ffffff);
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+.textarea {
+  composes: all;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+.button {
+  composes: all;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background-image: none;
+  align-items: flex-start;
+  text-align: center;
+  padding: 2px 6px;
+  border: 1px solid lightgray;
+}
+.code {
+  composes: all;
+  font-family: inherit;
+  line-height: inherit;
+}
+.pre {
+  composes: all;
+  font-family: inherit;
+  line-height: inherit;
+}
+.p {
+  composes: all;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+.h1 {
+  composes: all;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.h2 {
+  composes: all;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.h3 {
+  composes: all;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.h4 {
+  composes: all;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.h5 {
+  composes: all;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.h6 {
+  composes: all;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.address {
+  composes: all;
+  font-style: inherit;
+}
+.a {
+  composes: all;
+  color: inherit;
+}
+.ol {
+  composes: all;
+  list-style-type: none;
+  padding: 0;
+}
+.ul {
+  composes: all;
+  list-style-type: none;
+  padding: 0;
+}
+.select {
+  composes: all;
+  padding: 2px 6px;
+}
+.plasmic_default__component_wrapper {
+  display: grid;
+}
+.plasmic_default__inline {
+  display: inline;
+}
+.plasmic_page_wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: stretch;
+  align-self: start;
+}
+.plasmic_page_wrapper > * {
+  height: auto !important;
+}
+.root_reset {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #535353;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+}
+
+:where(.root_reset) h1,
+:where(.root_reset) .plasmic_default__h1,
+:where(.root_reset) .h1,
+.plasmic_default__h1:where(.root_reset) {
+}

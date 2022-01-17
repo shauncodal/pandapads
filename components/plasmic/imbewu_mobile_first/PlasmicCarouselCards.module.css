@@ -1,0 +1,40 @@
+.outer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  min-width: 0;
+}
+.outer > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.outer > :global(.__wab_flex-container) > *,
+.outer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.outer > :global(.__wab_flex-container) > picture > img,
+.outer > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 16px;
+}
+.cardImageHeader__g6T7:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  max-width: 280px;
+}
+.cardImageHeader___5Xt47:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  max-width: 280px;
+}
+.cardImageHeader___7Il6Q:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+  max-width: 280px;
+}

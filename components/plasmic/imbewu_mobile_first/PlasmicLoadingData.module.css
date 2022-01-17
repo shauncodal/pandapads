@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox___4X4H {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: url("/plasmic/imbewu_mobile_first/images/lightgreensvg.svg") 0% 0% / cover repeat;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__vJasI {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 200px;
+  height: 100px;
+  color: var(--token-vYO6h4FW3);
+  flex-shrink: 0;
+}
+.txtStartup {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--token-vYO6h4FW3);
+  position: relative;
+  text-align: center;
+  align-self: center;
+  height: auto;
+}

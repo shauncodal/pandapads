@@ -3,52 +3,57 @@
 import * as React from "react";
 import { PlasmicHomepage } from "../components/plasmic/panda/PlasmicHomepage";
 import Router from 'next/router'
-import { usePaystackPayment } from 'react-paystack';
+import PaymentForm from '../components/PaymentForm'
+
+
 
 function Homepage() {
-  const [menuOpen, toggleMenu] = React.useState(false);
-  return <PlasmicHomepage 
+  const [whyOpen, toggleWhy] = React.useState(false);
+  const [howOpen, toggleHow] = React.useState(false);
+  const [showPayment, togglePayment] = React.useState(false);
+  
+  return <div>
+    <PlasmicHomepage 
   getInvolved = {{
     onClick : (e) =>{
       Router.push('/GetInvolved')
     }
   }}
 
-
-  topMenu = {{
-    btnHome:{
-      onClick : (e) =>{
-        Router.push('/')
-        toggleMenu(!menuOpen)
-      }
-    },
-    btnImpact:{
-      onClick : (e) =>{
-        Router.push('/OurImpact')
-        toggleMenu(!menuOpen)
-      }
-    },
-    btnContact: {
-      onClick : (e) =>{
-        Router.push('/Contact')
-        toggleMenu(!menuOpen)
-      }
-    },
-    btnInvolved:{
-      onClick : (e) =>{
-        Router.push('/GetInvolved')
-        toggleMenu(!menuOpen)
-      }
-    },
-    menuOpen: menuOpen,
-    btnMenu: {
-      onClick : (e) =>{
-        console.log('menuOpen', menuOpen)
-        toggleMenu(!menuOpen)
-      }
+  how = {{
+    open: howOpen,
+    onClick: (e)=>{
+      toggleHow(!howOpen)
     }
   }}
-  />;
+
+  why = {{
+    open: whyOpen,
+    onClick: (e)=>{
+      toggleWhy(!whyOpen)
+    }
+  }}
+
+  btnDonate = {{
+    onClick:(e)=>{
+      togglePayment(!showPayment)
+    }
+  }}
+
+
+  
+  />
+  {showPayment && <div style={{width:'100%', height:"100%", position:'fixed', top:0, left:0}}>
+    <PaymentForm 
+  btnClose = {{
+    onClick:(e)=>{
+      togglePayment(!showPayment)
+    }
+  }}
+  />
+  </div>}
+
+  </div>;
 }
 
 export default Homepage;

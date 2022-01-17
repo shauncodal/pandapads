@@ -1,0 +1,59 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.checkBoxTerms:global(.__wab_instance) {
+  position: relative;
+}
+.text {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  white-space: pre-wrap;
+  font-size: 11px;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  padding: 10px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.freeBox__showError {
+  display: none;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: var(--token-cE0h0jVeC);
+  flex-shrink: 0;
+}
+.txtError {
+  position: relative;
+  color: var(--token-cE0h0jVeC);
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  min-width: 0;
+}

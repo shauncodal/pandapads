@@ -1,0 +1,284 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: var(--token-oWf5ggoEo);
+  box-shadow: none;
+  min-width: 280px;
+  border-radius: 8px;
+}
+.freeBox__vZlml {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: 194px;
+  background: linear-gradient(var(--token-hKDDQTr7l), var(--token-hKDDQTr7l)),
+    url("/plasmic/imbewu_mobile_first/images/imageSmilingjpg.jpeg") 0% 0% / cover repeat;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px 8px 0px 0px;
+  padding: 32px;
+}
+@media (min-width: 380px) {
+  .freeBox__vZlml {
+    height: auto;
+    width: auto;
+    min-height: 2px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 300px;
+    background: linear-gradient(var(--token-hKDDQTr7l), var(--token-hKDDQTr7l)),
+      url("/plasmic/imbewu_mobile_first/images/imageSmilingjpg.jpeg") 0% 0% / cover repeat;
+    justify-content: center;
+    align-items: flex-start;
+    flex-column-gap: 0px;
+    border-radius: 8px;
+    padding: 32px;
+    border: 1px solid var(--token-oWf5ggoEo);
+  }
+}
+@media (min-width: 768px) {
+  .freeBox__vZlml {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+    background: linear-gradient(var(--token-hKDDQTr7l), var(--token-hKDDQTr7l)),
+      url("/plasmic/imbewu_mobile_first/images/imageSmilingjpg.jpeg") 0% 0% / cover repeat;
+    justify-content: center;
+    align-items: flex-start;
+    flex-column-gap: 0px;
+    border-radius: 8px;
+    padding: 32px;
+    border: 1px solid var(--token-oWf5ggoEo);
+  }
+}
+.freeBox__ke4L {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(68, 192, 255, 0.2);
+  width: 2px;
+  height: 1px;
+  flex-shrink: 0;
+}
+.freeBox__e4GGe {
+  display: block;
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  align-self: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  left: auto;
+  right: 13px;
+  top: auto;
+  bottom: 12px;
+  flex-shrink: 0;
+}
+@media (min-width: 380px) {
+  .freeBox__e4GGe {
+    width: 2em;
+    height: 2em;
+    display: block;
+    position: absolute;
+    align-self: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    left: auto;
+    right: 16px;
+    top: auto;
+    bottom: 16px;
+    flex-column-gap: 0px;
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 768px) {
+  .freeBox__e4GGe {
+    width: 5em;
+    height: 5em;
+    display: block;
+    position: absolute;
+    align-self: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    left: auto;
+    right: 16px;
+    top: auto;
+    bottom: 16px;
+    flex-column-gap: 0px;
+    flex-shrink: 0;
+  }
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: var(--token-h1nwR9emp);
+  left: auto;
+  top: auto;
+  right: 0px;
+  bottom: auto;
+  min-width: 0;
+  min-height: 0;
+}
+@media (min-width: 380px) {
+  .svg {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    color: var(--token-h1nwR9emp);
+    left: auto;
+    top: auto;
+    right: 0px;
+    bottom: auto;
+    min-width: 0;
+    min-height: 0;
+  }
+}
+@media (min-width: 768px) {
+  .svg {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    color: var(--token-h1nwR9emp);
+    left: auto;
+    top: auto;
+    right: 0px;
+    bottom: auto;
+    min-width: 0;
+    min-height: 0;
+  }
+}
+.freeBox___2SVwq {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 16px;
+}
+.freeBox__f2QSh {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox___3GXb {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+@media (min-width: 380px) {
+  .freeBox___3GXb {
+    position: relative;
+    padding: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .freeBox___3GXb {
+    position: relative;
+    padding: 0px;
+  }
+}
+.slotTargetChildren {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--token-wNURBLgcg);
+}
+@media (min-width: 380px) {
+  .slotTargetChildren {
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--token-oWf5ggoEo);
+  }
+}
+@media (min-width: 768px) {
+  .slotTargetChildren {
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: var(--token-oWf5ggoEo);
+  }
+}
+.freeBox___7Mp9T {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.text__x842T {
+  position: relative;
+  color: var(--token-c79ojIUd1);
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0px;
+}
+@media (min-width: 380px) {
+  .text__x842T {
+    font-size: 1em;
+    position: relative;
+    color: var(--token-oWf5ggoEo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .text__x842T {
+    font-size: 1.5em;
+    position: relative;
+    color: var(--token-oWf5ggoEo);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 0px;
+  }
+}
+.freeBox__zyMa {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 16px;
+}
+.text__z4TH {
+  position: relative;
+}
+.freeBox__jPHmp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 16px;
+}
+.btnNormal:global(.__wab_instance) {
+  position: relative;
+}

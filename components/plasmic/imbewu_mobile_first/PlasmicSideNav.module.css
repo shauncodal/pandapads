@@ -1,0 +1,30 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: 100%;
+  min-height: 0;
+}
+.navHolder {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  background: var(--token-h1nwR9emp);
+  width: 300px;
+}
+.menuItem__irhtW:global(.__wab_instance) {
+  position: relative;
+}
+.menuItem__qhOi2:global(.__wab_instance) {
+  position: relative;
+}
+.menuItem__t8Wt9:global(.__wab_instance) {
+  position: relative;
+}
+.menuItem__ng8Ku:global(.__wab_instance) {
+  position: relative;
+}

@@ -1,0 +1,24 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.btnMenuItem {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  background: none;
+  cursor: pointer;
+  min-width: 0;
+  padding: 10px;
+  border-bottom: 1px solid var(--token-oWf5ggoEo);
+}
+.slotTargetTxtMenu {
+  color: var(--token-vYO6h4FW3);
+}

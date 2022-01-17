@@ -245,10 +245,12 @@ function PlasmicHomepage__RenderFunc(props) {
               />
 
               <div
+                data-plasmic-name={"btnDonate"}
+                data-plasmic-override={overrides.btnDonate}
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___8WyZl
+                  sty.btnDonate
                 )}
               >
                 {"Donate Now"}
@@ -265,9 +267,9 @@ function PlasmicHomepage__RenderFunc(props) {
 
             <div className={classNames(projectcss.all, sty.freeBox___0Gm3M)}>
               <BtnGrey
-                data-plasmic-name={"getInvolved2"}
-                data-plasmic-override={overrides.getInvolved2}
-                className={classNames("__wab_instance", sty.getInvolved2)}
+                data-plasmic-name={"btnImpact"}
+                data-plasmic-override={overrides.btnImpact}
+                className={classNames("__wab_instance", sty.btnImpact)}
               >
                 {"Learn about the impact we have"}
               </BtnGrey>
@@ -349,8 +351,9 @@ const PlasmicDescendants = {
     "periodpoverty",
     "why",
     "how",
+    "btnDonate",
     "getInvolved",
-    "getInvolved2",
+    "btnImpact",
     "link",
     "instagram",
     "twitter",
@@ -363,8 +366,9 @@ const PlasmicDescendants = {
   periodpoverty: ["periodpoverty"],
   why: ["why"],
   how: ["how"],
+  btnDonate: ["btnDonate"],
   getInvolved: ["getInvolved"],
-  getInvolved2: ["getInvolved2"],
+  btnImpact: ["btnImpact"],
   link: ["link"],
   instagram: ["instagram"],
   twitter: ["twitter"],
@@ -406,8 +410,9 @@ export const PlasmicHomepage = Object.assign(
     periodpoverty: makeNodeComponent("periodpoverty"),
     why: makeNodeComponent("why"),
     how: makeNodeComponent("how"),
+    btnDonate: makeNodeComponent("btnDonate"),
     getInvolved: makeNodeComponent("getInvolved"),
-    getInvolved2: makeNodeComponent("getInvolved2"),
+    btnImpact: makeNodeComponent("btnImpact"),
     link: makeNodeComponent("link"),
     instagram: makeNodeComponent("instagram"),
     twitter: makeNodeComponent("twitter"),

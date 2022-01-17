@@ -1,0 +1,123 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  background: var(--token-oWf5ggoEo);
+  box-shadow: 0px 0px 4px 2px var(--token-0Uwcv5K4y);
+  min-width: 280px;
+  max-width: 280px;
+  border-radius: 8px;
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.img___4DttR {
+  position: relative;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.img___4DttR > picture > img {
+  object-fit: cover;
+}
+.img___4DttR > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__k9WS {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.freeBox__iQtrF {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__n7Fzx {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+@media (min-width: 380px) {
+  .freeBox__n7Fzx {
+    position: relative;
+    padding: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .freeBox__n7Fzx {
+    position: relative;
+    padding: 0px;
+  }
+}
+.slotTargetChildren {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--token-wNURBLgcg);
+}
+@media (min-width: 380px) {
+  .slotTargetChildren {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--token-wNURBLgcg);
+  }
+}
+@media (min-width: 768px) {
+  .slotTargetChildren {
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--token-wNURBLgcg);
+  }
+}
+.text__tJmD3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.iconRound__g6V2W:global(.__wab_instance) {
+  position: absolute;
+  top: auto;
+  left: auto;
+  align-self: auto;
+  right: 7px;
+  bottom: 94px;
+  flex-shrink: 0;
+}
+.svg__mR2L {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: var(--token-vYO6h4FW3);
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}
+.freeBox__tK2Cv {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.slotTargetSlot2 {
+  font-size: 14px;
+  color: var(--token-vYO6h4FW3);
+}

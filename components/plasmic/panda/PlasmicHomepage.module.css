@@ -12,7 +12,7 @@
   padding: 0px;
 }
 .topMenu:global(.__wab_instance) {
-  position: sticky;
+  position: fixed;
   left: 0px;
   top: 0px;
   z-index: 1;
@@ -360,7 +360,7 @@
   height: 40px;
   flex-shrink: 0;
 }
-.text___8WyZl {
+.btnDonate {
   position: relative;
   width: 100%;
   height: auto;
@@ -374,7 +374,7 @@
   padding: 16px 8px;
 }
 @media (min-width: 768px) {
-  .text___8WyZl {
+  .btnDonate {
     max-width: 400px;
   }
 }
@@ -411,12 +411,12 @@
   min-width: 0;
   padding: 0px 8px 8px;
 }
-.getInvolved2:global(.__wab_instance) {
+.btnImpact:global(.__wab_instance) {
   position: relative;
   align-self: center;
 }
 @media (min-width: 768px) {
-  .getInvolved2:global(.__wab_instance) {
+  .btnImpact:global(.__wab_instance) {
     max-width: 400px;
   }
 }

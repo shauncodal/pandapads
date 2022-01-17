@@ -1,0 +1,33 @@
+.outer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+}
+.outer > :global(.__wab_flex-container) {
+  flex-direction: row;
+  min-width: 0;
+  min-height: 0;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.outer > :global(.__wab_flex-container) > *,
+.outer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.outer > :global(.__wab_flex-container) > picture > img,
+.outer > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 16px;
+}
+.bannerCarouselItem__e02Z:global(.__wab_instance) {
+  position: relative;
+  height: auto;
+}
+.bannerCarouselItem__dsV86:global(.__wab_instance) {
+  position: relative;
+}
+.bannerCarouselItem__on1Xa:global(.__wab_instance) {
+  position: relative;
+}
