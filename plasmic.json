@@ -43,19 +43,6 @@
           "plumeType": "button"
         },
         {
-          "id": "fwM5YRpQfO",
-          "name": "HomepagePx",
-          "type": "managed",
-          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
-          "renderModuleFilePath": "plasmic/panda/PlasmicHomepagePx.jsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page.jsx"
-          },
-          "cssFilePath": "plasmic/panda/PlasmicHomepagePx.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "dpTc1VI3P5",
           "name": "TopMenu",
           "type": "managed",
@@ -143,6 +130,19 @@
             "modulePath": "../pages/new-page-2.jsx"
           },
           "cssFilePath": "plasmic/panda/PlasmicGetInvolved.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "fwM5YRpQfO",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
