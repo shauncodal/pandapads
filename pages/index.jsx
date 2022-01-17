@@ -3,6 +3,7 @@
 import * as React from "react";
 import { PlasmicHomepage } from "../components/plasmic/panda/PlasmicHomepage";
 import Router from 'next/router'
+import { usePaystackPayment } from 'react-paystack';
 
 function Homepage() {
   const [menuOpen, toggleMenu] = React.useState(false);

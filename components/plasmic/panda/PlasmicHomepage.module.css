@@ -12,7 +12,11 @@
   padding: 0px;
 }
 .topMenu:global(.__wab_instance) {
+<<<<<<< HEAD
   position: fixed;
+=======
+  position: sticky;
+>>>>>>> 24d8d9dbc05b6e041acd3798af812fbe4fb7f68e
   left: 0px;
   top: 0px;
   z-index: 1;
