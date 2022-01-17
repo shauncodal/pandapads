@@ -127,7 +127,7 @@
           "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
           "renderModuleFilePath": "plasmic/panda/PlasmicGetInvolved.jsx",
           "importSpec": {
-            "modulePath": "../pages/new-page-2.jsx"
+            "modulePath": "../pages/GetInvolved.jsx"
           },
           "cssFilePath": "plasmic/panda/PlasmicGetInvolved.module.css",
           "scheme": "blackbox",
@@ -140,7 +140,7 @@
           "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
           "renderModuleFilePath": "plasmic/panda/PlasmicHomepage.jsx",
           "importSpec": {
-            "modulePath": "../pages/new-page.jsx"
+            "modulePath": "../pages/index.jsx"
           },
           "cssFilePath": "plasmic/panda/PlasmicHomepage.module.css",
           "scheme": "blackbox",

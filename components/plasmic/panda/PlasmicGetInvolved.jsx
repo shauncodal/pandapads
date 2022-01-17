@@ -44,6 +44,8 @@ function PlasmicGetInvolved__RenderFunc(props) {
     <React.Fragment>
       <Head>
         <meta name="twitter:card" content="summary" />
+        <title key="title">{"Get Involved"}</title>
+        <meta key="og:title" property="og:title" content={"Get Involved"} />
       </Head>
 
       <style>{`
