@@ -12,7 +12,10 @@
   padding: 0px;
 }
 .topMenu:global(.__wab_instance) {
-  position: relative;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
 .freeBox__pslTe {
   display: flex;
