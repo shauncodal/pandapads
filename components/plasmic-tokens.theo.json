@@ -21,6 +21,16 @@
       }
     },
     {
+      "name": "darkerGrey",
+      "type": "color",
+      "value": "#A3A3A3",
+      "category": "color",
+      "meta": {
+        "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+        "id": "KcWdgct8T"
+      }
+    },
+    {
       "name": "green",
       "type": "color",
       "value": "#94A887",
@@ -38,6 +48,46 @@
       "meta": {
         "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
         "id": "iDWWyx_r0"
+      }
+    },
+    {
+      "name": "lightgreyBG",
+      "type": "color",
+      "value": "#F1F1F1",
+      "category": "color",
+      "meta": {
+        "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+        "id": "zufrlsS5r"
+      }
+    },
+    {
+      "name": "pandaGreen",
+      "type": "color",
+      "value": "#70AD47",
+      "category": "color",
+      "meta": {
+        "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+        "id": "ExlJiqGiU"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+        "id": "exxFslzNe"
+      }
+    },
+    {
+      "name": "yellow",
+      "type": "color",
+      "value": "#FAFF00",
+      "category": "color",
+      "meta": {
+        "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+        "id": "C6RenZWZH"
       }
     }
   ],

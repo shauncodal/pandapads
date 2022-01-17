@@ -20,8 +20,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_panda.module.css"; // plasmic-import: p6tU1MHcNvqW8cSkqwHcz5/projectcss
-import * as sty from "./PlasmicButton.module.css"; // plasmic-import: oWV9TLFVNrF/css
+import projectcss from "./plasmic_panda.module.css"; // plasmic-import: p6tU1MHcNvqW8cSkqwHcz5/projectcss
+import sty from "./PlasmicButton.module.css"; // plasmic-import: oWV9TLFVNrF/css
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: Km9Nxtu8J_5/icon
 
 export const PlasmicButton__VariantProps = new Array(
@@ -41,7 +41,7 @@ export const PlasmicButton__ArgProps = new Array(
 );
 
 function PlasmicButton__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: false
@@ -62,6 +62,7 @@ function PlasmicButton__RenderFunc(props) {
       className={classNames(
         projectcss.button,
         projectcss.root_reset,
+        projectcss.plasmic_tokens,
         sty.root,
         {
           [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
@@ -508,12 +509,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButton__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButton__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
