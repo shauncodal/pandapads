@@ -2,25 +2,52 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PlasmicHomepage } from "../components/plasmic/panda/PlasmicHomepage";
+import Router from 'next/router'
 
 function Homepage() {
-  // Use PlasmicHomepage to render this component as it was
-  // designed in Plasmic, by activating the appropriate variants,
-  // attaching the appropriate event handlers, etc.  You
-  // can also install whatever React hooks you need here to manage state or
-  // fetch data.
-  //
-  // Props you can pass into PlasmicHomepage are:
-  // 1. Variants you want to activate,
-  // 2. Contents for slots you want to fill,
-  // 3. Overrides for any named node in the component to attach behavior and data,
-  // 4. Props to set on the root node.
-  //
-  // By default, PlasmicHomepage is wrapped by your project's global
-  // variant context providers. These wrappers may be moved to
-  // Next.js Custom App component
-  // (https://nextjs.org/docs/advanced-features/custom-app).
-  return <PlasmicHomepage />;
+  const [menuOpen, toggleMenu] = React.useState(false);
+  return <PlasmicHomepage 
+  getInvolved = {{
+    onClick : (e) =>{
+      Router.push('/GetInvolved')
+    }
+  }}
+
+
+  topMenu = {{
+    btnHome:{
+      onClick : (e) =>{
+        Router.push('/')
+        toggleMenu(!menuOpen)
+      }
+    },
+    btnImpact:{
+      onClick : (e) =>{
+        Router.push('/OurImpact')
+        toggleMenu(!menuOpen)
+      }
+    },
+    btnContact: {
+      onClick : (e) =>{
+        Router.push('/Contact')
+        toggleMenu(!menuOpen)
+      }
+    },
+    btnInvolved:{
+      onClick : (e) =>{
+        Router.push('/GetInvolved')
+        toggleMenu(!menuOpen)
+      }
+    },
+    menuOpen: menuOpen,
+    btnMenu: {
+      onClick : (e) =>{
+        console.log('menuOpen', menuOpen)
+        toggleMenu(!menuOpen)
+      }
+    }
+  }}
+  />;
 }
 
 export default Homepage;

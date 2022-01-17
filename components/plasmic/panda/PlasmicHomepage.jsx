@@ -226,15 +226,16 @@ function PlasmicHomepage__RenderFunc(props) {
             </div>
 
             <AccordianWhy
-              data-plasmic-name={"accordianWhy"}
-              data-plasmic-override={overrides.accordianWhy}
-              className={classNames("__wab_instance", sty.accordianWhy)}
+              data-plasmic-name={"why"}
+              data-plasmic-override={overrides.why}
+              className={classNames("__wab_instance", sty.why)}
+              open={true}
             />
 
             <AccordianHow
-              data-plasmic-name={"accordianHow"}
-              data-plasmic-override={overrides.accordianHow}
-              className={classNames("__wab_instance", sty.accordianHow)}
+              data-plasmic-name={"how"}
+              data-plasmic-override={overrides.how}
+              className={classNames("__wab_instance", sty.how)}
             />
 
             <div className={classNames(projectcss.all, sty.freeBox__yyJUx)}>
@@ -346,8 +347,8 @@ const PlasmicDescendants = {
     "keepagirlinschool",
     "ecofriendly",
     "periodpoverty",
-    "accordianWhy",
-    "accordianHow",
+    "why",
+    "how",
     "getInvolved",
     "getInvolved2",
     "link",
@@ -360,8 +361,8 @@ const PlasmicDescendants = {
   keepagirlinschool: ["keepagirlinschool"],
   ecofriendly: ["ecofriendly"],
   periodpoverty: ["periodpoverty"],
-  accordianWhy: ["accordianWhy"],
-  accordianHow: ["accordianHow"],
+  why: ["why"],
+  how: ["how"],
   getInvolved: ["getInvolved"],
   getInvolved2: ["getInvolved2"],
   link: ["link"],
@@ -403,8 +404,8 @@ export const PlasmicHomepage = Object.assign(
     keepagirlinschool: makeNodeComponent("keepagirlinschool"),
     ecofriendly: makeNodeComponent("ecofriendly"),
     periodpoverty: makeNodeComponent("periodpoverty"),
-    accordianWhy: makeNodeComponent("accordianWhy"),
-    accordianHow: makeNodeComponent("accordianHow"),
+    why: makeNodeComponent("why"),
+    how: makeNodeComponent("how"),
     getInvolved: makeNodeComponent("getInvolved"),
     getInvolved2: makeNodeComponent("getInvolved2"),
     link: makeNodeComponent("link"),

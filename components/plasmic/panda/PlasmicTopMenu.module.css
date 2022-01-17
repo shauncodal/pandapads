@@ -177,15 +177,15 @@
   display: none;
   padding: 8px;
 }
-.menuItem___1Y1U:global(.__wab_instance) {
+.btnHome:global(.__wab_instance) {
   position: relative;
 }
-.menuItem__frdms:global(.__wab_instance) {
+.btnInvolved:global(.__wab_instance) {
   position: relative;
 }
-.menuItem__envlj:global(.__wab_instance) {
+.btnImpact:global(.__wab_instance) {
   position: relative;
 }
-.menuItem___5Qdh1:global(.__wab_instance) {
+.btnContact:global(.__wab_instance) {
   position: relative;
 }
