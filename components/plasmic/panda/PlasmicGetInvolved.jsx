@@ -354,42 +354,6 @@ function PlasmicGetInvolved__RenderFunc(props) {
                 {"Setup a monthly debit order"}
               </button>
             </div>
-
-            <div className={classNames(projectcss.all, sty.freeBox__fbcc1)}>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text___01Cc4
-                )}
-              >
-                {"Donate Care Kit Items"}
-              </div>
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text___7QC7I
-                )}
-              >
-                {
-                  "Donate any items that form part of our Care Kits, namely, 5 litre white buckets with a lid and handle; laundry soap bars, personal body wash soap bars and Nutri-Go’s nutritious meals. "
-                }
-              </div>
-
-              <button
-                data-plasmic-name={"donateCareKit"}
-                data-plasmic-override={overrides.donateCareKit}
-                className={classNames(
-                  projectcss.button,
-                  projectcss.__wab_text,
-                  sty.donateCareKit
-                )}
-              >
-                {"Donate Care Kit Items"}
-              </button>
-            </div>
           </p.Stack>
 
           <div className={classNames(projectcss.all, sty.freeBox__fheix)}>
@@ -443,7 +407,6 @@ const PlasmicDescendants = {
     "twitter",
     "facebook",
     "debitOrder",
-    "donateCareKit",
     "link"
   ],
 
@@ -456,7 +419,6 @@ const PlasmicDescendants = {
   twitter: ["twitter"],
   facebook: ["facebook"],
   debitOrder: ["debitOrder"],
-  donateCareKit: ["donateCareKit"],
   link: ["link"]
 };
 
@@ -498,7 +460,6 @@ export const PlasmicGetInvolved = Object.assign(
     twitter: makeNodeComponent("twitter"),
     facebook: makeNodeComponent("facebook"),
     debitOrder: makeNodeComponent("debitOrder"),
-    donateCareKit: makeNodeComponent("donateCareKit"),
     link: makeNodeComponent("link"),
     // Metadata about props expected for PlasmicGetInvolved
     internalVariantProps: PlasmicGetInvolved__VariantProps,

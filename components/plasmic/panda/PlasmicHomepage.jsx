@@ -87,9 +87,9 @@ function PlasmicHomepage__RenderFunc(props) {
               displayWidth={"auto"}
               loading={"lazy"}
               src={{
-                src: "/plasmic/panda/images/whatsAppImage20211210At103924Jpeg.jpeg",
-                fullWidth: 746,
-                fullHeight: 500,
+                src: "/plasmic/panda/images/whatsAppImage20210824At122624Jpeg.jpeg",
+                fullWidth: 1600,
+                fullHeight: 1200,
                 aspectRatio: undefined
               }}
             />
