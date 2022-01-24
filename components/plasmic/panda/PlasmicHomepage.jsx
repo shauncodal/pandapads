@@ -197,7 +197,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 sty.text__nIy42
               )}
             >
-              {"About Panda Pads"}
+              {"About Panda Pads 3"}
             </div>
 
             <div

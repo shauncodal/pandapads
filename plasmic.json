@@ -174,19 +174,6 @@
           "componentType": "component"
         },
         {
-          "id": "6fKLW8gBeO",
-          "name": "Contact",
-          "type": "managed",
-          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
-          "renderModuleFilePath": "plasmic/panda/PlasmicContact.jsx",
-          "importSpec": {
-            "modulePath": "../pages/contact.jsx"
-          },
-          "cssFilePath": "plasmic/panda/PlasmicContact.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "fnTy3kaGmk",
           "name": "OurImpact",
           "type": "managed",
@@ -196,6 +183,19 @@
             "modulePath": "../pages/our-impact.jsx"
           },
           "cssFilePath": "plasmic/panda/PlasmicOurImpact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6fKLW8gBeO",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicContact.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -356,6 +356,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.166",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
 }
