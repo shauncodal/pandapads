@@ -359,9 +359,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                   sty.debitOrder
                 )}
               >
-                {hasVariant(globalVariants, "screen", "desktopOnly")
-                  ? "Setup a monthly debit order"
-                  : "Setup a monthly debit order"}
+                {"Setup a monthly debit order"}
               </button>
             </div>
           </p.Stack>
@@ -438,7 +436,8 @@ const PlasmicDescendants = {
     "instagram",
     "twitter",
     "facebook",
-    "debitOrder"
+    "debitOrder",
+    "link"
   ],
 
   topMenu: ["topMenu"],
@@ -449,7 +448,8 @@ const PlasmicDescendants = {
   instagram: ["instagram"],
   twitter: ["twitter"],
   facebook: ["facebook"],
-  debitOrder: ["debitOrder"]
+  debitOrder: ["debitOrder"],
+  link: ["link"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -490,9 +490,10 @@ export const PlasmicGetinvolved = Object.assign(
     twitter: makeNodeComponent("twitter"),
     facebook: makeNodeComponent("facebook"),
     debitOrder: makeNodeComponent("debitOrder"),
-    // Metadata about props expected for PlasmicGetinvolved
-    internalVariantProps: PlasmicGetinvolved__VariantProps,
-    internalArgProps: PlasmicGetinvolved__ArgProps
+    link: makeNodeComponent("link"),
+    // Metadata about props expected for PlasmicGetInvolved
+    internalVariantProps: PlasmicGetInvolved__VariantProps,
+    internalArgProps: PlasmicGetInvolved__ArgProps
   }
 );
 
