@@ -36,19 +36,15 @@ function PlasmicAccordianWhy__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        projectcss.all,
-        projectcss.root_reset,
-        projectcss.plasmic_tokens,
-        sty.root,
-        { [sty.root__open]: hasVariant(variants, "open", "open") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.rootopen]: hasVariant(variants, "open", "open")
+      })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__open]: hasVariant(variants, "open", "open")
+          [sty.freeBoxopen]: hasVariant(variants, "open", "open")
         })}
       >
         <div
@@ -56,9 +52,7 @@ function PlasmicAccordianWhy__RenderFunc(props) {
             projectcss.all,
             projectcss.__wab_text,
             sty.text__nPx3B,
-            {
-              [sty.text__open__nPx3BrzWc8]: hasVariant(variants, "open", "open")
-            }
+            { [sty.textopen__nPx3BrzWc8]: hasVariant(variants, "open", "open") }
           )}
         >
           {"Why is this initiative so important?"}
@@ -71,7 +65,7 @@ function PlasmicAccordianWhy__RenderFunc(props) {
             hasVariant(variants, "open", "open") ? Icon5Icon : Icon3Icon
           }
           className={classNames(projectcss.all, sty.svg, {
-            [sty.svg__open]: hasVariant(variants, "open", "open")
+            [sty.svgopen]: hasVariant(variants, "open", "open")
           })}
           role={"img"}
         />
@@ -95,9 +89,7 @@ function PlasmicAccordianWhy__RenderFunc(props) {
             projectcss.all,
             projectcss.__wab_text,
             sty.text__t7GfG,
-            {
-              [sty.text__open__t7GfGrzWc8]: hasVariant(variants, "open", "open")
-            }
+            { [sty.textopen__t7GfGrzWc8]: hasVariant(variants, "open", "open") }
           )}
         >
           {

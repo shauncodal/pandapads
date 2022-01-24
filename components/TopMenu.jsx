@@ -17,7 +17,7 @@ function TopMenu_(props, ref) {
     }}
     btnImpact={{
       onClick : (e) =>{
-        Router.push('/OurImpact')
+        Router.push('/our-impact')
         toggleMenu(!menuOpen)
       }
     }}
@@ -38,6 +38,12 @@ function TopMenu_(props, ref) {
       onClick : (e) =>{
         console.log('menuOpen', menuOpen)
         toggleMenu(!menuOpen)
+      }
+    }}
+
+    facebook = {{
+      onClick:(e)=>{
+        window.open('https://www.facebook.com/PandaPads.SA/')
       }
     }}
  

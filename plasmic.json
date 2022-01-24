@@ -172,6 +172,32 @@
           "cssFilePath": "plasmic/panda/PlasmicBtnGrey.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "6fKLW8gBeO",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "fnTy3kaGmk",
+          "name": "OurImpact",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicOurImpact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/our-impact.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicOurImpact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -244,6 +270,31 @@
           "id": "HGfquhKfKT",
           "name": "Icon7Icon",
           "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Icon7.jsx"
+        },
+        {
+          "id": "jkACsZndbL",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "5iLloI91nZ",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Icon9.jsx"
+        },
+        {
+          "id": "-9zWCYvijW",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Icon10.jsx"
+        },
+        {
+          "id": "hxeNBUY5Yq",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Icon11.jsx"
+        },
+        {
+          "id": "t9wEul69dC",
+          "name": "Icon12Icon",
+          "moduleFilePath": "plasmic/panda/icons/PlasmicIcon__Icon12.jsx"
         }
       ],
       "images": [

@@ -25,22 +25,22 @@
   justify-content: flex-start;
   min-width: 0;
 }
-.freeBox__menuOpen__sf6BBfiiJj {
-  background: var(--token-zufrlsS5r);
+.freeBoxmenuOpen__sf6BBfiiJj {
+  background: #f1f1f1;
 }
-.freeBox__menuOpen__sf6BBfiiJj > :global(.__wab_flex-container) {
+.freeBoxmenuOpen__sf6BBfiiJj > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.freeBox__menuOpen__sf6BBfiiJj > :global(.__wab_flex-container) > *,
-.freeBox__menuOpen__sf6BBfiiJj
+.freeBoxmenuOpen__sf6BBfiiJj > :global(.__wab_flex-container) > *,
+.freeBoxmenuOpen__sf6BBfiiJj
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.freeBox__menuOpen__sf6BBfiiJj > :global(.__wab_flex-container) > picture > img,
-.freeBox__menuOpen__sf6BBfiiJj
+.freeBoxmenuOpen__sf6BBfiiJj > :global(.__wab_flex-container) > picture > img,
+.freeBoxmenuOpen__sf6BBfiiJj
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -55,7 +55,7 @@
   justify-content: space-between;
   width: 100%;
   height: auto;
-  background: var(--token-zufrlsS5r);
+  background: #f1f1f1;
   position: relative;
   min-width: 0;
   border-radius: 8px;
@@ -99,10 +99,10 @@
   height: auto;
   max-width: 800px;
   text-align: center;
-  font-family: var(--token-0vdkX-82R);
+  font-family: Comfortaa /* plasmic-token: 0vdkX-82R */;
   font-size: 21px;
   font-weight: 700;
-  color: var(--token-bOEqvXiLr);
+  color: #000000 /* plasmic-token: bOEqvXiLr */;
   min-width: 0;
 }
 .freeBox__qy14C {
@@ -122,7 +122,10 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: var(--token-KcWdgct8T);
+  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
+  transition-property: all;
+  transition-duration: 1s;
+  cursor: pointer;
   flex-shrink: 0;
 }
 .freeBox__yCwR2 {
@@ -142,7 +145,7 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: var(--token-KcWdgct8T);
+  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
   flex-shrink: 0;
 }
 .freeBox___2GZ7W {
@@ -162,7 +165,8 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: var(--token-KcWdgct8T);
+  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
+  cursor: pointer;
   flex-shrink: 0;
 }
 .freeBox__e4Z5 {

@@ -40,12 +40,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        projectcss.all,
-        projectcss.root_reset,
-        projectcss.plasmic_tokens,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
@@ -59,7 +54,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__pIcQh,
               {
-                [sty.text__status_success__pIcQhmKoyh]: hasVariant(
+                [sty.textstatus_success__pIcQhmKoyh]: hasVariant(
                   variants,
                   "status",
                   "success"
@@ -90,7 +85,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
               data-plasmic-name={"inputFirstName"}
               data-plasmic-override={overrides.inputFirstName}
               className={classNames("__wab_instance", sty.inputFirstName, {
-                [sty.inputFirstName__status_success]: hasVariant(
+                [sty.inputFirstNamestatus_success]: hasVariant(
                   variants,
                   "status",
                   "success"
@@ -104,7 +99,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
               data-plasmic-name={"inputLastName"}
               data-plasmic-override={overrides.inputLastName}
               className={classNames("__wab_instance", sty.inputLastName, {
-                [sty.inputLastName__status_success]: hasVariant(
+                [sty.inputLastNamestatus_success]: hasVariant(
                   variants,
                   "status",
                   "success"
@@ -118,7 +113,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
               data-plasmic-name={"inputEmail"}
               data-plasmic-override={overrides.inputEmail}
               className={classNames("__wab_instance", sty.inputEmail, {
-                [sty.inputEmail__status_success]: hasVariant(
+                [sty.inputEmailstatus_success]: hasVariant(
                   variants,
                   "status",
                   "success"
@@ -134,7 +129,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__kuAt0,
                 {
-                  [sty.text__status_success__kuAt0MKoyh]: hasVariant(
+                  [sty.textstatus_success__kuAt0MKoyh]: hasVariant(
                     variants,
                     "status",
                     "success"
@@ -154,7 +149,7 @@ function PlasmicPaymentForm__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.btnDonate,
                 {
-                  [sty.btnDonate__status_success]: hasVariant(
+                  [sty.btnDonatestatus_success]: hasVariant(
                     variants,
                     "status",
                     "success"

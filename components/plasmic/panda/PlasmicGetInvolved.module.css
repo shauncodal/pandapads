@@ -32,6 +32,7 @@
 @media (min-width: 768px) {
   .freeBox___8Y6Fr {
     margin-bottom: 68px;
+    padding-top: 0px;
   }
 }
 .freeBox__oYxIt {
@@ -52,6 +53,8 @@
 @media (min-width: 768px) {
   .freeBox__oYxIt {
     margin-top: 90px;
+    height: 6px;
+    flex-shrink: 0;
   }
 }
 .freeBox__rnvCt {
@@ -63,7 +66,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: var(--token-ExlJiqGiU);
+  background: #70ad47;
   min-width: 0;
   padding: 16px;
 }
@@ -90,7 +93,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: var(--token-C6RenZWZH);
+  color: #faff00 /* plasmic-token: C6RenZWZH */;
   height: 100%;
   width: 1em;
   flex-shrink: 0;
@@ -100,7 +103,7 @@
   width: 100%;
   height: auto;
   max-width: 800px;
-  color: var(--token-exxFslzNe);
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   font-family: Comfortaa;
   font-weight: 300;
   font-size: 25px;
@@ -337,8 +340,8 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: var(--token-ExlJiqGiU);
-  color: var(--token-exxFslzNe);
+  background: #70ad47;
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   min-width: 0;
   border-radius: 4px;
   padding: 16px 8px;
@@ -405,8 +408,8 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  background: var(--token-ExlJiqGiU);
-  color: var(--token-exxFslzNe);
+  background: #70ad47;
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   align-self: flex-start;
@@ -418,8 +421,8 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  background: var(--token-ExlJiqGiU);
-  color: var(--token-exxFslzNe);
+  background: #70ad47;
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   align-self: flex-start;
@@ -431,8 +434,8 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  background: var(--token-ExlJiqGiU);
-  color: var(--token-exxFslzNe);
+  background: #70ad47;
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   align-self: flex-start;
@@ -456,7 +459,7 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: var(--token-KcWdgct8T);
+  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
   flex-shrink: 0;
 }
 .freeBox___1UTww {
@@ -476,7 +479,7 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: var(--token-KcWdgct8T);
+  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
   flex-shrink: 0;
 }
 .freeBox__kDcb6 {
@@ -496,7 +499,7 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: var(--token-KcWdgct8T);
+  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
   flex-shrink: 0;
 }
 .freeBox__elNzz {
@@ -549,8 +552,8 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: var(--token-bOEqvXiLr);
-  color: var(--token-exxFslzNe);
+  background: #000000;
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   min-width: 0;
   border-radius: 4px;
   padding: 16px 8px;
@@ -606,8 +609,8 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: var(--token-ExlJiqGiU);
-  color: var(--token-exxFslzNe);
+  background: #70ad47;
+  color: #ffffff /* plasmic-token: exxFslzNe */;
   min-width: 0;
   border-radius: 4px;
   padding: 16px 8px;
@@ -640,8 +643,8 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: var(--token-zufrlsS5r);
-  color: var(--token-bOEqvXiLr);
+  background: #f1f1f1;
+  color: #000000 /* plasmic-token: bOEqvXiLr */;
   font-size: 11px;
   font-family: "Roboto", sans-serif;
   min-width: 0;

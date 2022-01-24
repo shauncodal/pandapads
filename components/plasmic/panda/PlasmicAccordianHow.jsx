@@ -36,19 +36,15 @@ function PlasmicAccordianHow__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        projectcss.all,
-        projectcss.root_reset,
-        projectcss.plasmic_tokens,
-        sty.root,
-        { [sty.root__open]: hasVariant(variants, "open", "open") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.rootopen]: hasVariant(variants, "open", "open")
+      })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__open]: hasVariant(variants, "open", "open")
+          [sty.freeBoxopen]: hasVariant(variants, "open", "open")
         })}
       >
         <div
@@ -56,9 +52,7 @@ function PlasmicAccordianHow__RenderFunc(props) {
             projectcss.all,
             projectcss.__wab_text,
             sty.text__wOjbU,
-            {
-              [sty.text__open__wOjbUn1K1H]: hasVariant(variants, "open", "open")
-            }
+            { [sty.textopen__wOjbUn1K1H]: hasVariant(variants, "open", "open") }
           )}
         >
           {"How do we do this?"}
@@ -71,7 +65,7 @@ function PlasmicAccordianHow__RenderFunc(props) {
             hasVariant(variants, "open", "open") ? Icon5Icon : Icon3Icon
           }
           className={classNames(projectcss.all, sty.svg, {
-            [sty.svg__open]: hasVariant(variants, "open", "open")
+            [sty.svgopen]: hasVariant(variants, "open", "open")
           })}
           role={"img"}
         />
@@ -95,9 +89,7 @@ function PlasmicAccordianHow__RenderFunc(props) {
             projectcss.all,
             projectcss.__wab_text,
             sty.text__mhaqJ,
-            {
-              [sty.text__open__mhaqJn1K1H]: hasVariant(variants, "open", "open")
-            }
+            { [sty.textopen__mhaqJn1K1H]: hasVariant(variants, "open", "open") }
           )}
         >
           {

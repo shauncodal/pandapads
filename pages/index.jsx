@@ -40,6 +40,12 @@ function Homepage() {
     }
   }}
 
+  btnImpact = {{
+    onClick:(e)=>{
+      Router.push('/our-impact')
+    }
+  }}
+
 
   
   />

@@ -34,15 +34,9 @@ function PlasmicBtnMenu__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        projectcss.all,
-        projectcss.root_reset,
-        projectcss.plasmic_tokens,
-        sty.root,
-        {
-          [sty.root__menuClose]: hasVariant(variants, "menuClose", "menuClose")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.rootmenuClose]: hasVariant(variants, "menuClose", "menuClose")
+      })}
     >
       <p.PlasmicIcon
         data-plasmic-name={"svg"}
@@ -53,7 +47,7 @@ function PlasmicBtnMenu__RenderFunc(props) {
             : HamburgersvgIcon
         }
         className={classNames(projectcss.all, sty.svg, {
-          [sty.svg__menuClose]: hasVariant(variants, "menuClose", "menuClose")
+          [sty.svgmenuClose]: hasVariant(variants, "menuClose", "menuClose")
         })}
         role={"img"}
       />

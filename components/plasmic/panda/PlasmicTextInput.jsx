@@ -59,27 +59,16 @@ function PlasmicTextInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        projectcss.all,
-        projectcss.root_reset,
-        projectcss.plasmic_tokens,
-        sty.root,
-        {
-          [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.root__isDisabled]: hasVariant(
-            variants,
-            "isDisabled",
-            "isDisabled"
-          ),
-
-          [sty.root__showStartIcon]: hasVariant(
-            variants,
-            "showStartIcon",
-            "showStartIcon"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+        [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
+        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
+        [sty.rootshowStartIcon]: hasVariant(
+          variants,
+          "showStartIcon",
+          "showStartIcon"
+        )
+      })}
       data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
     >
       {(
@@ -89,21 +78,21 @@ function PlasmicTextInput__RenderFunc(props) {
           data-plasmic-name={"startIconContainer"}
           data-plasmic-override={overrides.startIconContainer}
           className={classNames(projectcss.all, sty.startIconContainer, {
-            [sty.startIconContainer_____focusVisibleWithin]:
+            [sty.startIconContainer___focusVisibleWithin]:
               triggers.focusVisibleWithin_root,
-            [sty.startIconContainer__color_dark]: hasVariant(
+            [sty.startIconContainercolor_dark]: hasVariant(
               variants,
               "color",
               "dark"
             ),
 
-            [sty.startIconContainer__isDisabled]: hasVariant(
+            [sty.startIconContainerisDisabled]: hasVariant(
               variants,
               "isDisabled",
               "isDisabled"
             ),
 
-            [sty.startIconContainer__showStartIcon]: hasVariant(
+            [sty.startIconContainershowStartIcon]: hasVariant(
               variants,
               "showStartIcon",
               "showStartIcon"
@@ -120,13 +109,13 @@ function PlasmicTextInput__RenderFunc(props) {
 
             value: args.startIcon,
             className: classNames(sty.slotTargetStartIcon, {
-              [sty.slotTargetStartIcon__color_dark]: hasVariant(
+              [sty.slotTargetStartIconcolor_dark]: hasVariant(
                 variants,
                 "color",
                 "dark"
               ),
 
-              [sty.slotTargetStartIcon__showStartIcon]: hasVariant(
+              [sty.slotTargetStartIconshowStartIcon]: hasVariant(
                 variants,
                 "showStartIcon",
                 "showStartIcon"
@@ -142,15 +131,15 @@ function PlasmicTextInput__RenderFunc(props) {
         aria-label={args["aria-label"]}
         aria-labelledby={args["aria-labelledby"]}
         className={classNames(projectcss.input, sty.input, {
-          [sty.input_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-          [sty.input__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.input__isDisabled]: hasVariant(
+          [sty.input___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+          [sty.inputcolor_dark]: hasVariant(variants, "color", "dark"),
+          [sty.inputisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.input__showStartIcon]: hasVariant(
+          [sty.inputshowStartIcon]: hasVariant(
             variants,
             "showStartIcon",
             "showStartIcon"
@@ -172,13 +161,13 @@ function PlasmicTextInput__RenderFunc(props) {
           data-plasmic-name={"endIconContainer"}
           data-plasmic-override={overrides.endIconContainer}
           className={classNames(projectcss.all, sty.endIconContainer, {
-            [sty.endIconContainer__color_dark]: hasVariant(
+            [sty.endIconContainercolor_dark]: hasVariant(
               variants,
               "color",
               "dark"
             ),
 
-            [sty.endIconContainer__showEndIcon]: hasVariant(
+            [sty.endIconContainershowEndIcon]: hasVariant(
               variants,
               "showEndIcon",
               "showEndIcon"
@@ -195,13 +184,13 @@ function PlasmicTextInput__RenderFunc(props) {
 
             value: args.endIcon,
             className: classNames(sty.slotTargetEndIcon, {
-              [sty.slotTargetEndIcon__color_dark]: hasVariant(
+              [sty.slotTargetEndIconcolor_dark]: hasVariant(
                 variants,
                 "color",
                 "dark"
               ),
 
-              [sty.slotTargetEndIcon__showEndIcon]: hasVariant(
+              [sty.slotTargetEndIconshowEndIcon]: hasVariant(
                 variants,
                 "showEndIcon",
                 "showEndIcon"

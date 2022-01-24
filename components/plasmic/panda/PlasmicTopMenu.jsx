@@ -37,18 +37,13 @@ function PlasmicTopMenu__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        projectcss.all,
-        projectcss.root_reset,
-        projectcss.plasmic_tokens,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox__sf6Bb, {
-          [sty.freeBox__menuOpen__sf6BBfiiJj]: hasVariant(
+          [sty.freeBoxmenuOpen__sf6BBfiiJj]: hasVariant(
             variants,
             "menuOpen",
             "menuOpen"
@@ -60,7 +55,7 @@ function PlasmicTopMenu__RenderFunc(props) {
             data-plasmic-name={"btnMenu"}
             data-plasmic-override={overrides.btnMenu}
             className={classNames("__wab_instance", sty.btnMenu, {
-              [sty.btnMenu__menuOpen]: hasVariant(
+              [sty.btnMenumenuOpen]: hasVariant(
                 variants,
                 "menuOpen",
                 "menuOpen"
@@ -126,7 +121,7 @@ function PlasmicTopMenu__RenderFunc(props) {
             data-plasmic-name={"btnHome"}
             data-plasmic-override={overrides.btnHome}
             className={classNames("__wab_instance", sty.btnHome, {
-              [sty.btnHome__menuOpen]: hasVariant(
+              [sty.btnHomemenuOpen]: hasVariant(
                 variants,
                 "menuOpen",
                 "menuOpen"
@@ -146,7 +141,7 @@ function PlasmicTopMenu__RenderFunc(props) {
             data-plasmic-name={"btnInvolved"}
             data-plasmic-override={overrides.btnInvolved}
             className={classNames("__wab_instance", sty.btnInvolved, {
-              [sty.btnInvolved__menuOpen]: hasVariant(
+              [sty.btnInvolvedmenuOpen]: hasVariant(
                 variants,
                 "menuOpen",
                 "menuOpen"
@@ -166,7 +161,7 @@ function PlasmicTopMenu__RenderFunc(props) {
             data-plasmic-name={"btnImpact"}
             data-plasmic-override={overrides.btnImpact}
             className={classNames("__wab_instance", sty.btnImpact, {
-              [sty.btnImpact__menuOpen]: hasVariant(
+              [sty.btnImpactmenuOpen]: hasVariant(
                 variants,
                 "menuOpen",
                 "menuOpen"
@@ -186,7 +181,7 @@ function PlasmicTopMenu__RenderFunc(props) {
             data-plasmic-name={"btnContact"}
             data-plasmic-override={overrides.btnContact}
             className={classNames("__wab_instance", sty.btnContact, {
-              [sty.btnContact__menuOpen]: hasVariant(
+              [sty.btnContactmenuOpen]: hasVariant(
                 variants,
                 "menuOpen",
                 "menuOpen"

@@ -63,7 +63,6 @@ function PlasmicGetInvolved__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
-            projectcss.plasmic_tokens,
             sty.root
           )}
         >
