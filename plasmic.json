@@ -161,19 +161,6 @@
           "componentType": "component"
         },
         {
-          "id": "fnTy3kaGmk",
-          "name": "OurImpact",
-          "type": "managed",
-          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
-          "renderModuleFilePath": "plasmic/panda/PlasmicOurImpact.jsx",
-          "importSpec": {
-            "modulePath": "../pages/our-impact.jsx"
-          },
-          "cssFilePath": "plasmic/panda/PlasmicOurImpact.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "6fKLW8gBeO",
           "name": "Contact",
           "type": "managed",
@@ -183,6 +170,32 @@
             "modulePath": "../pages/contact.jsx"
           },
           "cssFilePath": "plasmic/panda/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "2wY7mvgKVJ",
+          "name": "Getinvolved",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicGetinvolved.jsx",
+          "importSpec": {
+            "modulePath": "../pages/getinvolved.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicGetinvolved.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "oTwJ-iK7gd",
+          "name": "Ourimpact",
+          "type": "managed",
+          "projectId": "p6tU1MHcNvqW8cSkqwHcz5",
+          "renderModuleFilePath": "plasmic/panda/PlasmicOurimpact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/ourimpact.jsx"
+          },
+          "cssFilePath": "plasmic/panda/PlasmicOurimpact.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
