@@ -47,16 +47,6 @@
           "checksum": "803ea41ebfb8b1198b35500b87762aa5"
         },
         {
-          "type": "renderModule",
-          "assetId": "QQ-rhbiQtD1",
-          "checksum": "58921ff6e503c41cf0a6a602d5f0a402"
-        },
-        {
-          "type": "cssRules",
-          "assetId": "QQ-rhbiQtD1",
-          "checksum": "58921ff6e503c41cf0a6a602d5f0a402"
-        },
-        {
           "type": "icon",
           "assetId": "MG5NbDC8lx",
           "checksum": "0f22c69546a4c57443fad6f65c73fecb"
@@ -258,16 +248,6 @@
         },
         {
           "type": "renderModule",
-          "assetId": "fnTy3kaGmk",
-          "checksum": "cad553d596bb097188ab99ddece6fae4"
-        },
-        {
-          "type": "cssRules",
-          "assetId": "fnTy3kaGmk",
-          "checksum": "cad553d596bb097188ab99ddece6fae4"
-        },
-        {
-          "type": "renderModule",
           "assetId": "6fKLW8gBeO",
           "checksum": "10bf6856d2f0f429b8b419c0c11467f1"
         },
@@ -275,6 +255,11 @@
           "type": "cssRules",
           "assetId": "6fKLW8gBeO",
           "checksum": "10bf6856d2f0f429b8b419c0c11467f1"
+        },
+        {
+          "type": "image",
+          "assetId": "ebm6OzUQU",
+          "checksum": "cffeca105eaea53f09ee13b1378d4cb9"
         },
         {
           "assetId": "p6tU1MHcNvqW8cSkqwHcz5",
@@ -282,9 +267,24 @@
           "checksum": "4cfc4f09eae79d6a5536992b45c1d7a3"
         },
         {
-          "type": "image",
-          "assetId": "ebm6OzUQU",
-          "checksum": "cffeca105eaea53f09ee13b1378d4cb9"
+          "type": "renderModule",
+          "assetId": "2wY7mvgKVJ",
+          "checksum": "f705d81092732e2eb91c042e3f780c6d"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "2wY7mvgKVJ",
+          "checksum": "f705d81092732e2eb91c042e3f780c6d"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "oTwJ-iK7gd",
+          "checksum": "065802d84ae87bd504dd73954b604649"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "oTwJ-iK7gd",
+          "checksum": "065802d84ae87bd504dd73954b604649"
         }
       ]
     }
