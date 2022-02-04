@@ -22,7 +22,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_panda.module.css"; // plasmic-import: p6tU1MHcNvqW8cSkqwHcz5/projectcss
 import sty from "./PlasmicTopMenu.module.css"; // plasmic-import: dpTc1VI3P5/css
 import IconInstasvgIcon from "./icons/PlasmicIcon__IconInstasvg"; // plasmic-import: J9OPz5GQhT/icon
-import IconTwsvgIcon from "./icons/PlasmicIcon__IconTwsvg"; // plasmic-import: xWz3mP7J7n/icon
 import IconFbsvgIcon from "./icons/PlasmicIcon__IconFbsvg"; // plasmic-import: -3jNUbjHt8/icon
 
 export const PlasmicTopMenu__VariantProps = new Array("menuOpen");
@@ -37,7 +36,12 @@ function PlasmicTopMenu__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_tokens,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
@@ -89,15 +93,6 @@ function PlasmicTopMenu__RenderFunc(props) {
               data-plasmic-name={"instagram"}
               data-plasmic-override={overrides.instagram}
               className={classNames(projectcss.all, sty.instagram)}
-              role={"img"}
-            />
-          </div>
-
-          <div className={classNames(projectcss.all, sty.freeBox__yCwR2)}>
-            <IconTwsvgIcon
-              data-plasmic-name={"twitter"}
-              data-plasmic-override={overrides.twitter}
-              className={classNames(projectcss.all, sty.twitter)}
               role={"img"}
             />
           </div>
@@ -207,7 +202,6 @@ const PlasmicDescendants = {
     "btnMenu",
     "text",
     "instagram",
-    "twitter",
     "facebook",
     "btnHome",
     "btnInvolved",
@@ -218,7 +212,6 @@ const PlasmicDescendants = {
   btnMenu: ["btnMenu"],
   text: ["text"],
   instagram: ["instagram"],
-  twitter: ["twitter"],
   facebook: ["facebook"],
   btnHome: ["btnHome"],
   btnInvolved: ["btnInvolved"],
@@ -258,7 +251,6 @@ export const PlasmicTopMenu = Object.assign(
     btnMenu: makeNodeComponent("btnMenu"),
     text: makeNodeComponent("text"),
     instagram: makeNodeComponent("instagram"),
-    twitter: makeNodeComponent("twitter"),
     facebook: makeNodeComponent("facebook"),
     btnHome: makeNodeComponent("btnHome"),
     btnInvolved: makeNodeComponent("btnInvolved"),

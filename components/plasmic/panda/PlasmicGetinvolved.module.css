@@ -95,7 +95,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: #70ad47;
+  background: var(--token-ExlJiqGiU);
   min-width: 0;
   padding: 16px;
 }
@@ -109,7 +109,7 @@
     justify-content: center;
     width: 100%;
     max-width: 100%;
-    background: #70ad47;
+    background: var(--token-ExlJiqGiU);
     flex-column-gap: 0px;
     min-width: 0;
     flex-shrink: 0;
@@ -133,7 +133,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #faff00 /* plasmic-token: C6RenZWZH */;
+  color: var(--token-C6RenZWZH);
   height: 100%;
   width: 1em;
   flex-shrink: 0;
@@ -143,7 +143,7 @@
   width: 100%;
   height: auto;
   max-width: 800px;
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  color: var(--token-exxFslzNe);
   font-family: Comfortaa;
   font-weight: 300;
   font-size: 25px;
@@ -156,7 +156,7 @@
     width: 100%;
     height: auto;
     max-width: 800px;
-    color: #ffffff /* plasmic-token: exxFslzNe */;
+    color: var(--token-exxFslzNe);
     font-family: Comfortaa;
     font-weight: 300;
     min-width: 0;
@@ -178,9 +178,9 @@
   padding: 8px;
 }
 .freeBox__ecCgZ {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -190,8 +190,8 @@
 }
 .freeBox__ecCgZ > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
 }
 @media (min-width: 768px) {
@@ -311,9 +311,9 @@
   }
 }
 .freeBox___0Igqy {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   max-width: 1024px;
@@ -322,8 +322,8 @@
 }
 .freeBox___0Igqy > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
@@ -437,8 +437,9 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: #70ad47;
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  background: var(--token-ExlJiqGiU);
+  color: var(--token-exxFslzNe);
+  cursor: pointer;
   min-width: 0;
   border-radius: 4px;
   padding: 16px 8px;
@@ -451,8 +452,8 @@
     height: auto;
     align-self: center;
     text-align: center;
-    background: #70ad47;
-    color: #ffffff /* plasmic-token: exxFslzNe */;
+    background: var(--token-ExlJiqGiU);
+    color: var(--token-exxFslzNe);
     min-width: 0;
     border-radius: 4px;
     padding: 16px 8px;
@@ -478,9 +479,9 @@
   min-width: 0;
 }
 .freeBox__bNtii {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -489,8 +490,8 @@
 }
 .freeBox__bNtii > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -547,8 +548,8 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  background: #70ad47;
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  background: var(--token-ExlJiqGiU);
+  color: var(--token-exxFslzNe);
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   align-self: flex-start;
@@ -561,8 +562,8 @@
     width: auto;
     height: auto;
     max-width: 800px;
-    background: #70ad47;
-    color: #ffffff /* plasmic-token: exxFslzNe */;
+    background: var(--token-ExlJiqGiU);
+    color: var(--token-exxFslzNe);
     font-size: 12px;
     font-family: "Roboto", sans-serif;
     align-self: flex-start;
@@ -575,8 +576,8 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  background: #70ad47;
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  background: var(--token-ExlJiqGiU);
+  color: var(--token-exxFslzNe);
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   align-self: flex-start;
@@ -588,8 +589,8 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  background: #70ad47;
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  background: var(--token-ExlJiqGiU);
+  color: var(--token-exxFslzNe);
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   align-self: flex-start;
@@ -613,7 +614,8 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
+  color: var(--token-KcWdgct8T);
+  cursor: pointer;
   flex-shrink: 0;
 }
 .freeBox__f7J23 {
@@ -626,15 +628,6 @@
   height: auto;
   max-width: 100%;
   padding: 8px;
-}
-.twitter {
-  position: relative;
-  object-fit: cover;
-  max-width: 100%;
-  width: 22px;
-  height: 22px;
-  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
-  flex-shrink: 0;
 }
 .freeBox__ey7Kj {
   display: flex;
@@ -653,7 +646,8 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
+  color: var(--token-KcWdgct8T);
+  cursor: pointer;
   flex-shrink: 0;
 }
 .freeBox__lq6Il {
@@ -720,8 +714,9 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: #000000;
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  background: var(--token-bOEqvXiLr);
+  color: var(--token-exxFslzNe);
+  cursor: pointer;
   min-width: 0;
   border-radius: 4px;
   padding: 16px 8px;
@@ -734,8 +729,8 @@
     height: auto;
     align-self: center;
     text-align: center;
-    background: #000000;
-    color: #ffffff /* plasmic-token: exxFslzNe */;
+    background: var(--token-bOEqvXiLr);
+    color: var(--token-exxFslzNe);
     min-width: 0;
     border-radius: 4px;
     padding: 16px 8px;
@@ -783,8 +778,8 @@
   max-width: 800px;
   align-self: center;
   text-align: center;
-  background: #f1f1f1;
-  color: #000000 /* plasmic-token: bOEqvXiLr */;
+  background: var(--token-zufrlsS5r);
+  color: var(--token-bOEqvXiLr);
   font-size: 11px;
   font-family: "Roboto", sans-serif;
   min-width: 0;
@@ -799,8 +794,8 @@
     height: auto;
     align-self: center;
     text-align: center;
-    background: #f1f1f1;
-    color: #000000 /* plasmic-token: bOEqvXiLr */;
+    background: var(--token-zufrlsS5r);
+    color: var(--token-bOEqvXiLr);
     font-size: 11px;
     font-family: "Roboto", sans-serif;
     min-width: 0;

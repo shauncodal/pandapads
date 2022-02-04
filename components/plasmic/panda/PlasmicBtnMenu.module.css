@@ -11,18 +11,18 @@
   padding: 8px;
 }
 .rootmenuClose {
-  background: #70ad47;
+  background: var(--token-ExlJiqGiU);
   border-radius: 4px;
 }
 .svg {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #70ad47 /* plasmic-token: ExlJiqGiU */;
+  color: var(--token-ExlJiqGiU);
   width: 19px;
   height: 16px;
   flex-shrink: 0;
 }
 .svgmenuClose {
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  color: var(--token-exxFslzNe);
 }

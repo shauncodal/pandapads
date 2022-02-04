@@ -17,26 +17,25 @@ function TopMenu_(props, ref) {
     }}
     btnImpact={{
       onClick : (e) =>{
-        Router.push('/our-impact')
+        Router.push('/ourimpact')
         toggleMenu(!menuOpen)
       }
     }}
     btnContact= {{
       onClick : (e) =>{
-        Router.push('/Contact')
+        Router.push('/contact')
         toggleMenu(!menuOpen)
       }
     }}
     btnInvolved={{
       onClick : (e) =>{
-        Router.push('/GetInvolved')
+        Router.push('/getinvolved')
         toggleMenu(!menuOpen)
       }
     }}
     menuOpen= {menuOpen}
     btnMenu= {{
       onClick : (e) =>{
-        console.log('menuOpen', menuOpen)
         toggleMenu(!menuOpen)
       }
     }}

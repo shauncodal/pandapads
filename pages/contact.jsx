@@ -20,7 +20,18 @@ function Contact() {
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
-  return <PlasmicContact />;
+  return <PlasmicContact 
+  facebook = {{
+    onClick:(e)=>{
+      window.open('https://www.facebook.com/PandaPads.SA/')
+    }
+  }}
+  instagram = {{
+    onClick:(e)=>{
+      window.open('https://www.facebook.com/PandaPads.SA/')
+    }
+  }}
+  />;
 }
 
 export default Contact;

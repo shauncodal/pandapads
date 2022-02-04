@@ -10,9 +10,9 @@
   min-width: 0;
 }
 .freeBox__sf6Bb {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -21,12 +21,12 @@
 }
 .freeBox__sf6Bb > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
 }
 .freeBoxmenuOpen__sf6BBfiiJj {
-  background: #f1f1f1;
+  background: var(--token-zufrlsS5r);
 }
 .freeBoxmenuOpen__sf6BBfiiJj > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);
@@ -55,7 +55,7 @@
   justify-content: space-between;
   width: 100%;
   height: auto;
-  background: #f1f1f1;
+  background: var(--token-zufrlsS5r);
   position: relative;
   min-width: 0;
   border-radius: 8px;
@@ -65,9 +65,9 @@
   position: relative;
 }
 .freeBox__pTtyM {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -77,8 +77,8 @@
 }
 .freeBox__pTtyM > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -99,10 +99,10 @@
   height: auto;
   max-width: 800px;
   text-align: center;
-  font-family: Comfortaa /* plasmic-token: 0vdkX-82R */;
+  font-family: var(--token-0vdkX-82R);
   font-size: 21px;
   font-weight: 700;
-  color: #000000 /* plasmic-token: bOEqvXiLr */;
+  color: var(--token-bOEqvXiLr);
   min-width: 0;
 }
 .freeBox__qy14C {
@@ -122,30 +122,10 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
+  color: var(--token-KcWdgct8T);
   transition-property: all;
   transition-duration: 1s;
   cursor: pointer;
-  flex-shrink: 0;
-}
-.freeBox__yCwR2 {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  padding: 8px;
-}
-.twitter {
-  position: relative;
-  object-fit: cover;
-  max-width: 100%;
-  width: 22px;
-  height: 22px;
-  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
   flex-shrink: 0;
 }
 .freeBox___2GZ7W {
@@ -165,7 +145,7 @@
   max-width: 100%;
   width: 22px;
   height: 22px;
-  color: #a3a3a3 /* plasmic-token: KcWdgct8T */;
+  color: var(--token-KcWdgct8T);
   cursor: pointer;
   flex-shrink: 0;
 }

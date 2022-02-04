@@ -36,9 +36,13 @@ function PlasmicAccordianWhy__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootopen]: hasVariant(variants, "open", "open")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_tokens,
+        sty.root,
+        { [sty.rootopen]: hasVariant(variants, "open", "open") }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}

@@ -27,7 +27,6 @@ import sty from "./PlasmicGetinvolved.module.css"; // plasmic-import: 2wY7mvgKVJ
 import VerticalHRsvgIcon from "./icons/PlasmicIcon__VerticalHRsvg"; // plasmic-import: XmHlOAzX_A/icon
 import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: L6LSWcuzGo/icon
 import IconInstasvgIcon from "./icons/PlasmicIcon__IconInstasvg"; // plasmic-import: J9OPz5GQhT/icon
-import IconTwsvgIcon from "./icons/PlasmicIcon__IconTwsvg"; // plasmic-import: xWz3mP7J7n/icon
 import IconFbsvgIcon from "./icons/PlasmicIcon__IconFbsvg"; // plasmic-import: -3jNUbjHt8/icon
 
 export const PlasmicGetinvolved__VariantProps = new Array();
@@ -61,6 +60,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -218,6 +218,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                 data-plasmic-name={"btnDonate"}
                 data-plasmic-override={overrides.btnDonate}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.btnDonate
@@ -260,6 +261,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                 data-plasmic-name={"keepagirlinschool"}
                 data-plasmic-override={overrides.keepagirlinschool}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.keepagirlinschool
@@ -279,6 +281,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                 data-plasmic-name={"ecofriendly"}
                 data-plasmic-override={overrides.ecofriendly}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.ecofriendly
@@ -291,6 +294,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                 data-plasmic-name={"periodpoverty"}
                 data-plasmic-override={overrides.periodpoverty}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.periodpoverty
@@ -309,13 +313,6 @@ function PlasmicGetinvolved__RenderFunc(props) {
               />
 
               <div className={classNames(projectcss.all, sty.freeBox__f7J23)}>
-                <IconTwsvgIcon
-                  data-plasmic-name={"twitter"}
-                  data-plasmic-override={overrides.twitter}
-                  className={classNames(projectcss.all, sty.twitter)}
-                  role={"img"}
-                />
-
                 <div className={classNames(projectcss.all, sty.freeBox__ey7Kj)}>
                   <IconFbsvgIcon
                     data-plasmic-name={"facebook"}
@@ -354,6 +351,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                 data-plasmic-name={"debitOrder"}
                 data-plasmic-override={overrides.debitOrder}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.debitOrder
@@ -379,6 +377,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                   <React.Fragment>{""}</React.Fragment>
                   <p.PlasmicLink
                     className={classNames(
+                      projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
                       projectcss.plasmic_default__inline,
@@ -401,6 +400,7 @@ function PlasmicGetinvolved__RenderFunc(props) {
                   <React.Fragment>{""}</React.Fragment>
                   <p.PlasmicLink
                     className={classNames(
+                      projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
                       projectcss.plasmic_default__inline,
@@ -436,7 +436,6 @@ const PlasmicDescendants = {
     "ecofriendly",
     "periodpoverty",
     "instagram",
-    "twitter",
     "facebook",
     "debitOrder"
   ],
@@ -447,7 +446,6 @@ const PlasmicDescendants = {
   ecofriendly: ["ecofriendly"],
   periodpoverty: ["periodpoverty"],
   instagram: ["instagram"],
-  twitter: ["twitter"],
   facebook: ["facebook"],
   debitOrder: ["debitOrder"]
 };
@@ -487,7 +485,6 @@ export const PlasmicGetinvolved = Object.assign(
     ecofriendly: makeNodeComponent("ecofriendly"),
     periodpoverty: makeNodeComponent("periodpoverty"),
     instagram: makeNodeComponent("instagram"),
-    twitter: makeNodeComponent("twitter"),
     facebook: makeNodeComponent("facebook"),
     debitOrder: makeNodeComponent("debitOrder"),
     // Metadata about props expected for PlasmicGetinvolved

@@ -25,7 +25,7 @@ function PaymentForm_(props, ref) {
     email: email,
     amount: 30000,
     currency: "ZAR",
-    publicKey: 'pk_test_3a3005b078d84b990b516eea1e658a71dfd6d7ef',
+    publicKey: 'pk_live_1c64f8bb9a2b554584aee6f8b2b7255dc03e033f',
   };
 
   const initializePayment = usePaystackPayment(config);

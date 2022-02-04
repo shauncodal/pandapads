@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   max-width: 800px;
-  background: #a3a3a3;
+  background: var(--token-KcWdgct8T);
   position: relative;
   justify-content: center;
   display: flex;
@@ -13,6 +13,6 @@
   padding: 8px;
 }
 .slotTargetChildren {
-  color: #ffffff /* plasmic-token: exxFslzNe */;
+  color: var(--token-exxFslzNe);
   text-align: center;
 }

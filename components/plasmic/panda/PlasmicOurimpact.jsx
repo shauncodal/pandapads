@@ -61,6 +61,7 @@ function PlasmicOurimpact__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -121,6 +122,7 @@ function PlasmicOurimpact__RenderFunc(props) {
                 data-plasmic-name={"keepagirlinschool"}
                 data-plasmic-override={overrides.keepagirlinschool}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.keepagirlinschool
@@ -140,6 +142,7 @@ function PlasmicOurimpact__RenderFunc(props) {
                 data-plasmic-name={"ecofriendly"}
                 data-plasmic-override={overrides.ecofriendly}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.ecofriendly
@@ -152,6 +155,7 @@ function PlasmicOurimpact__RenderFunc(props) {
                 data-plasmic-name={"periodpoverty"}
                 data-plasmic-override={overrides.periodpoverty}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.periodpoverty

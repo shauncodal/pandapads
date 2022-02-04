@@ -18,7 +18,18 @@ function TopNav_(props, ref) {
   //
   // By default, we are just piping all TopNavProps here, but feel free
   // to do whatever works for you.
-  return <PlasmicTopNav root={{ ref }} {...props} />;
+  return <PlasmicTopNav root={{ ref }} {...props} 
+  facebook = {{
+    onClick:(e)=>{
+      window.open('https://www.facebook.com/PandaPads.SA/')
+    }
+  }}
+  instagram = {{
+    onClick:(e)=>{
+      window.open('https://www.facebook.com/PandaPads.SA/')
+    }
+  }}
+  />;
 }
 
 const TopNav = React.forwardRef(TopNav_);

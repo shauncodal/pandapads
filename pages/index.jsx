@@ -16,7 +16,7 @@ function Homepage() {
     <PlasmicHomepage 
   getInvolved = {{
     onClick : (e) =>{
-      Router.push('/GetInvolved')
+      Router.push('/getinvolved')
     }
   }}
 
@@ -42,7 +42,17 @@ function Homepage() {
 
   btnImpact = {{
     onClick:(e)=>{
-      Router.push('/our-impact')
+      Router.push('/ourimpact')
+    }
+  }}
+  facebook = {{
+    onClick:(e)=>{
+      window.open('https://www.facebook.com/PandaPads.SA/')
+    }
+  }}
+  instagram = {{
+    onClick:(e)=>{
+      window.open('https://www.facebook.com/PandaPads.SA/')
     }
   }}
 

@@ -5,7 +5,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: #ffffff;
+  background: var(--token-exxFslzNe);
   position: relative;
   min-width: 0;
   display: none;

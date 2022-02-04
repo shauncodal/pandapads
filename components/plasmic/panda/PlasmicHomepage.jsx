@@ -30,7 +30,6 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: fwM5YRpQfO/cs
 import VerticalHRsvgIcon from "./icons/PlasmicIcon__VerticalHRsvg"; // plasmic-import: XmHlOAzX_A/icon
 import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: L6LSWcuzGo/icon
 import IconInstasvgIcon from "./icons/PlasmicIcon__IconInstasvg"; // plasmic-import: J9OPz5GQhT/icon
-import IconTwsvgIcon from "./icons/PlasmicIcon__IconTwsvg"; // plasmic-import: xWz3mP7J7n/icon
 import IconFbsvgIcon from "./icons/PlasmicIcon__IconFbsvg"; // plasmic-import: -3jNUbjHt8/icon
 
 export const PlasmicHomepage__VariantProps = new Array();
@@ -66,6 +65,7 @@ function PlasmicHomepage__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -156,6 +156,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 data-plasmic-name={"keepagirlinschool"}
                 data-plasmic-override={overrides.keepagirlinschool}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.keepagirlinschool
@@ -169,6 +170,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 data-plasmic-name={"ecofriendly"}
                 data-plasmic-override={overrides.ecofriendly}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.ecofriendly
@@ -181,6 +183,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 data-plasmic-name={"periodpoverty"}
                 data-plasmic-override={overrides.periodpoverty}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.periodpoverty
@@ -197,7 +200,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 sty.text__nIy42
               )}
             >
-              {"About Panda Pads 3"}
+              {"About Panda Pads"}
             </div>
 
             <div
@@ -289,6 +292,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   data-plasmic-name={"link"}
                   data-plasmic-override={overrides.link}
                   className={classNames(
+                    projectcss.all,
                     projectcss.a,
                     projectcss.__wab_text,
                     projectcss.plasmic_default__inline,
@@ -317,13 +321,6 @@ function PlasmicHomepage__RenderFunc(props) {
               />
 
               <div className={classNames(projectcss.all, sty.freeBox__eYw2X)}>
-                <IconTwsvgIcon
-                  data-plasmic-name={"twitter"}
-                  data-plasmic-override={overrides.twitter}
-                  className={classNames(projectcss.all, sty.twitter)}
-                  role={"img"}
-                />
-
                 <div className={classNames(projectcss.all, sty.freeBox__fWdH)}>
                   <IconFbsvgIcon
                     data-plasmic-name={"facebook"}
@@ -355,7 +352,6 @@ const PlasmicDescendants = {
     "btnImpact",
     "link",
     "instagram",
-    "twitter",
     "facebook"
   ],
 
@@ -370,7 +366,6 @@ const PlasmicDescendants = {
   btnImpact: ["btnImpact"],
   link: ["link"],
   instagram: ["instagram"],
-  twitter: ["twitter"],
   facebook: ["facebook"]
 };
 
@@ -414,7 +409,6 @@ export const PlasmicHomepage = Object.assign(
     btnImpact: makeNodeComponent("btnImpact"),
     link: makeNodeComponent("link"),
     instagram: makeNodeComponent("instagram"),
-    twitter: makeNodeComponent("twitter"),
     facebook: makeNodeComponent("facebook"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

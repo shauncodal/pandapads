@@ -29,7 +29,6 @@ import sty from "./PlasmicContact.module.css"; // plasmic-import: 6fKLW8gBeO/css
 import VerticalHRsvgIcon from "./icons/PlasmicIcon__VerticalHRsvg"; // plasmic-import: XmHlOAzX_A/icon
 import Icon12Icon from "./icons/PlasmicIcon__Icon12"; // plasmic-import: t9wEul69dC/icon
 import IconInstasvgIcon from "./icons/PlasmicIcon__IconInstasvg"; // plasmic-import: J9OPz5GQhT/icon
-import IconTwsvgIcon from "./icons/PlasmicIcon__IconTwsvg"; // plasmic-import: xWz3mP7J7n/icon
 import IconFbsvgIcon from "./icons/PlasmicIcon__IconFbsvg"; // plasmic-import: -3jNUbjHt8/icon
 
 export const PlasmicContact__VariantProps = new Array();
@@ -63,6 +62,7 @@ function PlasmicContact__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -117,6 +117,7 @@ function PlasmicContact__RenderFunc(props) {
                 data-plasmic-name={"keepagirlinschool"}
                 data-plasmic-override={overrides.keepagirlinschool}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.keepagirlinschool
@@ -136,6 +137,7 @@ function PlasmicContact__RenderFunc(props) {
                 data-plasmic-name={"ecofriendly"}
                 data-plasmic-override={overrides.ecofriendly}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.ecofriendly
@@ -148,6 +150,7 @@ function PlasmicContact__RenderFunc(props) {
                 data-plasmic-name={"periodpoverty"}
                 data-plasmic-override={overrides.periodpoverty}
                 className={classNames(
+                  projectcss.all,
                   projectcss.button,
                   projectcss.__wab_text,
                   sty.periodpoverty
@@ -205,7 +208,11 @@ function PlasmicContact__RenderFunc(props) {
             <textarea
               data-plasmic-name={"message"}
               data-plasmic-override={overrides.message}
-              className={classNames(projectcss.textarea, sty.message)}
+              className={classNames(
+                projectcss.all,
+                projectcss.textarea,
+                sty.message
+              )}
               rows={6}
               value={"Your Message"}
             />
@@ -234,6 +241,7 @@ function PlasmicContact__RenderFunc(props) {
                   <React.Fragment>{""}</React.Fragment>
                   <p.PlasmicLink
                     className={classNames(
+                      projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
                       projectcss.plasmic_default__inline,
@@ -256,6 +264,7 @@ function PlasmicContact__RenderFunc(props) {
                   <React.Fragment>{""}</React.Fragment>
                   <p.PlasmicLink
                     className={classNames(
+                      projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
                       projectcss.plasmic_default__inline,
@@ -285,13 +294,6 @@ function PlasmicContact__RenderFunc(props) {
               />
 
               <div className={classNames(projectcss.all, sty.freeBox___9TIMh)}>
-                <IconTwsvgIcon
-                  data-plasmic-name={"twitter"}
-                  data-plasmic-override={overrides.twitter}
-                  className={classNames(projectcss.all, sty.twitter)}
-                  role={"img"}
-                />
-
                 <div className={classNames(projectcss.all, sty.freeBox___9Jhu)}>
                   <IconFbsvgIcon
                     data-plasmic-name={"facebook"}
@@ -322,7 +324,6 @@ const PlasmicDescendants = {
     "message",
     "button",
     "instagram",
-    "twitter",
     "facebook"
   ],
 
@@ -336,7 +337,6 @@ const PlasmicDescendants = {
   message: ["message"],
   button: ["button"],
   instagram: ["instagram"],
-  twitter: ["twitter"],
   facebook: ["facebook"]
 };
 
@@ -379,7 +379,6 @@ export const PlasmicContact = Object.assign(
     message: makeNodeComponent("message"),
     button: makeNodeComponent("button"),
     instagram: makeNodeComponent("instagram"),
-    twitter: makeNodeComponent("twitter"),
     facebook: makeNodeComponent("facebook"),
     // Metadata about props expected for PlasmicContact
     internalVariantProps: PlasmicContact__VariantProps,

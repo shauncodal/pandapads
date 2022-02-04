@@ -60,8 +60,10 @@ function PlasmicButton__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
+        projectcss.plasmic_tokens,
         sty.root,
         {
           [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,

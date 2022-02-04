@@ -34,9 +34,13 @@ function PlasmicBtnMenu__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootmenuClose]: hasVariant(variants, "menuClose", "menuClose")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_tokens,
+        sty.root,
+        { [sty.rootmenuClose]: hasVariant(variants, "menuClose", "menuClose") }
+      )}
     >
       <p.PlasmicIcon
         data-plasmic-name={"svg"}
