@@ -98,7 +98,7 @@ function PlasmicAccordianWhy__RenderFunc(props) {
           )}
         >
           {
-            "We are a 100% female owned organisation, and as women we know how difficult it is to be a woman in South Africa. When menstruating, at least 30% of girls miss an average of 3-5 days of school, this amounts to roughly 50 days out of the year. This horrible statistic leads to women falling behind in school and often dropping out, hindering them from reaching their full potential in life which creates a negative ripple effect on their families and the economy. "
+            "We are a 100% female owned organisation, and as women we know how difficult it is to be a woman in South Africa. When menstruating, at least 30% of girls miss an average of 3-5 days of school per month, this amounts to roughly 50 days out of the year. This horrible statistic leads to women falling behind in school and often dropping out, hindering them from reaching their full potential in life which creates a negative ripple effect on their families, communities and the economy. "
           }
         </div>
       ) : null}

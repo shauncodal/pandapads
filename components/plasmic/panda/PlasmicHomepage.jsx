@@ -78,7 +78,7 @@ function PlasmicHomepage__RenderFunc(props) {
           <div className={classNames(projectcss.all, sty.freeBox__pslTe)}>
             <p.PlasmicImg
               alt={""}
-              className={classNames(sty.img__xjqGp)}
+              className={classNames(sty.img___5Q6J)}
               displayHeight={"auto"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -114,8 +114,6 @@ function PlasmicHomepage__RenderFunc(props) {
           </div>
 
           <div className={classNames(projectcss.all, sty.freeBox___8IglT)}>
-            <div className={classNames(projectcss.all, sty.freeBox__nk6Of)} />
-
             <div className={classNames(projectcss.all, sty.freeBox__nv1Jz)}>
               <div className={classNames(projectcss.all, sty.freeBox__a6Ayr)}>
                 <VerticalHRsvgIcon
@@ -134,8 +132,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </div>
               </div>
             </div>
-
-            <div className={classNames(projectcss.all, sty.freeBox__b91Qi)} />
           </div>
 
           <p.Stack
@@ -207,7 +203,7 @@ function PlasmicHomepage__RenderFunc(props) {
               )}
             >
               {
-                "We make and distribute reusable menstrual pads in a carefully developed Care Kit that lasts ‘her’ 5 to 7 YEARS! "
+                "We make and distribute reusable menstrual pads in a carefully developed Care Kit that lasts 5 - 7 YEARS! "
               }
             </div>
 
@@ -219,7 +215,7 @@ function PlasmicHomepage__RenderFunc(props) {
               )}
             >
               {
-                "We aim to uplift women in our local communities by creating a sustainable future for underprivileged women’s menstruation. In doing so we also take every action to care for our environment by reducing our global footprint and ensuring a greener tomorrow with reusable, 100% biodegradable sanitary pads. We also strive in being creative and working hard to find more ways to help and impact the lives of women in Africa. "
+                "We aim to uplift women in rural areas and informal settlements, by creating a sustainable future for underprivileged women’s menstruation. In doing so we also take every action to care for our environment by reducing our global footprint and ensuring a greener tomorrow with reusable, 100% biodegradable sanitary pads. We strive in being creative and working hard to find more ways to help and impact the lives of women in Africa. "
               }
             </div>
 
