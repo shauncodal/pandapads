@@ -43,6 +43,17 @@
     flex-row-gap: 0px;
   }
 }
+.img__xjqGp {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__xjqGp > picture > img {
+  object-fit: cover;
+}
+.img__xjqGp > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__jqfAz {
   position: relative;
   object-fit: cover;
@@ -55,28 +66,6 @@
 }
 .img__jqfAz > .__wab_img-spacer > img {
   object-fit: cover;
-}
-.img__mEpl1 {
-  position: absolute;
-  object-fit: contain;
-  max-width: 100%;
-  width: 100px;
-  left: 26px;
-  top: 151px;
-}
-.img__mEpl1 > picture > img {
-  object-fit: contain;
-}
-.img__mEpl1 > .__wab_img-spacer > img {
-  object-fit: contain;
-}
-@media (min-width: 768px) {
-  .img__mEpl1 {
-    width: 200px;
-    top: 149px;
-    left: 135px;
-    flex-shrink: 0;
-  }
 }
 .freeBox___8IglT {
   display: flex;

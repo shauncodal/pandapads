@@ -13,7 +13,6 @@ import Head from "next/head";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -65,6 +64,7 @@ function PlasmicHomepage__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_default_styles,
             projectcss.plasmic_tokens,
             sty.root
           )}
@@ -76,6 +76,24 @@ function PlasmicHomepage__RenderFunc(props) {
           />
 
           <div className={classNames(projectcss.all, sty.freeBox__pslTe)}>
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__xjqGp)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/panda/images/image006Png.png",
+                fullWidth: 138,
+                fullHeight: 138,
+                aspectRatio: undefined
+              }}
+            />
+
             <p.PlasmicImg
               alt={""}
               className={classNames(sty.img__jqfAz)}
@@ -90,28 +108,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 src: "/plasmic/panda/images/whatsAppImage20210824At122624Jpeg.jpeg",
                 fullWidth: 1600,
                 fullHeight: 1200,
-                aspectRatio: undefined
-              }}
-            />
-
-            <p.PlasmicImg
-              alt={""}
-              className={classNames(sty.img__mEpl1)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={
-                hasVariant(globalVariants, "screen", "desktopOnly")
-                  ? "200px"
-                  : "100px"
-              }
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/panda/images/logo2Png.png",
-                fullWidth: 280,
-                fullHeight: 280,
                 aspectRatio: undefined
               }}
             />
